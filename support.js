@@ -1,4 +1,4 @@
-// GENERATED from dc-runtime/src/*.ts — do not edit. Rebuild with `cd dc-runtime && bun run build`.
+// support.js — runtime de renderização (não editar manualmente).
 "use strict";
 (() => {
   var __defProp = Object.defineProperty;

@@ -1,5 +1,4 @@
-// @ds-adherence-ignore -- omelette starter scaffold (raw elements/hex/px by design)
-// Copied omelette starter. Re-running copy_starter_component with this kind overwrites this file with the latest version (page content is unaffected).
+// image-slot.js — componente de imagem interativo (não editar manualmente).
 /* BEGIN USAGE */
 /**
  * <image-slot> — user-fillable image placeholder.
@@ -106,7 +105,7 @@
   // platform/web-agent/unsplash.ts — this file is a project-local
   // artifact and cannot import it (equality is pinned by tests).
   const UNSPLASH_HOMEPAGE_HREF =
-    'https://unsplash.com/?utm_source=claude_design&utm_medium=referral';
+    'https://unsplash.com/?utm_source=manual_bioconstrucao&utm_medium=referral';
   // Host rule mirrors the hotlink validator that admits Unsplash srcs into
   // pages in the first place (cdn$ in unsplash.ts: apex or any subdomain)
   // — Unsplash+ results serve from plus.unsplash.com, not just images.*,
@@ -136,7 +135,7 @@
         return href;
       }
       if (!u.searchParams.has('utm_source')) {
-        u.searchParams.set('utm_source', 'claude_design');
+        u.searchParams.set('utm_source', 'manual_bioconstrucao');
       }
       if (!u.searchParams.has('utm_medium')) {
         u.searchParams.set('utm_medium', 'referral');
@@ -1089,10 +1088,10 @@
       this.toggleAttribute('data-editable', editable);
       this._sub.style.display = editable ? '' : 'none';
 
-      // Content. The sidecar is also writable by the agent's write_file
+      // Content. The sidecar is also writable by an external write_file
       // tool, so its value isn't guaranteed canvas-originated — only accept
       // data:image/ URLs from it. The `src` attribute is author-controlled
-      // (Claude wrote it into the HTML) so it passes through unchanged.
+      // (written directly into the HTML) so it passes through unchanged.
       let stored = this.id ? getSlot(this.id) : this._local;
       if (stored && stored.u && !/^data:image\//i.test(stored.u)) stored = null;
       const srcAttr = this.getAttribute('src') || '';

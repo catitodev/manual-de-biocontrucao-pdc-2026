@@ -3,12 +3,8 @@
 // Texto pode conter **negrito**; isso é processado em runtime pelo componente.
 
 const IMG = {
-  bolinha: { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDrosGrcH8qAwCDwfrjKTAyaSFRF9f1dyxmHNURoLc2mRGVH0gkeynn2qhwxtFmCUpiY6HYKCNZoaI5cRVMhhpFLaEjYNc78R0-uJTjq33YiYOTj2lXyjvVyAJ4gOZF5ewqIWJ2QjqrjIgfiqBHj8Cft3lgcHkIG_4xWD0gI7m5tjVVGTndxkxL7r0wwGEV2NV1ivVQHgB7kffArZHen4GyT5s8yFWRwXDD_Ekmr0SP2YLzMRRovnJlL7_URGfTv34qRGY3HBZAFww" },
-  paupique: { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuBcJiMF3gtrm2ivUomSNaO41kgUaypfM0quCXn4j7ex7zEdXleKYbufop8jtnreX3VVzltTJVjz4d13ucCAeUf4OPmwvRnvBK_BZ3j4G2Ivod4Pa75MnyCVZ6yLASBYY_b7krFlZ1a2bkLgw1ATLd4_XhRJ2ye4iqxEa1meTlYYgAn35m4DXkNn1v0Mp796iL84h3M5jlXN3lL2p-eGdrcBt6h8bLgVyrre_Emf92M0Dat0hXNzzbjrro-CPAsA1-3IXGyHzH6vnnQ" },
-  superadobe: { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuCwBEUt0S2x7vbz4EsmlS3Aa7Kc-drHGvpfaMrrjYDWOExzyUW-XR9OkFvFp8ESQjON3VhW7Zx84Qc99nbz6L0u0JmY4MV7cT9lxIuN2iconhzg0Kx0FvatSWJlTFAYeoewmiRx6fIHj-efbZyRfLYne-SA43oNwizrwUZAqNGh-cOEAvOG2bBIHK4ixzHlzeksuCeW7MB1riHop0jwcawv6JCZLzdY373dyyvN30aLxwdTcVV3161vkj7OCTgTDFO_iwZMS1kjx7Q" },
-  soilStrata: { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuD_jJo-ktgoKz1in8alVtiZfFgKjOcBVqZqUm72zBG1j8euOqLkAC0d3M3hdnHMsiJCHdKqpTtlgFKR096gQvigIuPPJvaR8mYtTlBUCnjJXbmB_xRtlTsQv5ePlkHPqcx_UPQHDdBSUVTfkxpbX9BQdMiqfwOdhHRzAFdUcfu6N49AAdufXQznCLNhmRCUN7ecbnYi3ns2WunBTN57b9o-cHBJAivm_UQ2xPS4TeegaITznOw7gYpXdvlx46I2tCJG84rqy2eezeQ" },
-  wattleSeq: { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuBbzkO_L9dL0OdwfRkC9LUs5j9r1G6asQZRSRRqZp1ioHc-lTmL563xmclViBSJH7pC39BEVKP5Vmx2_giOF42Mqh47LrmzNVQvH81oflx0RnJ_p2mhbu_SGJ_hv-oI9QgjR06JGGdxpA-Yy-2s668gWViJcYvNbErrJiX4GBc6R0WCQRM1lbtp3Qbx7R1BjKhHtXuQ-qqHBxycl8fIJj-XtTDIJUx023EyEEiBt1u1fWJH7_agxfMNSgw_8OQ-Xg1TLJpTztIXAv0" },
-  wetland: { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuAe6xiUqeQAfFvwatJbzaD8_AiGj-3xrDVt7_7iUo9MkvtYqICx1CKgeasNaZC9V2H8ZS4qJ5gs7K5YzbJZaiL_9EQvYVkMRhr1kjGi4GsFS18treoL3FOzbwCnj8mG6VCQy9SMu2Gy3dHEgMEkgeeO-Nln01aK7MlmYaJu05_Z8aWNoD5R2-sR9Qpyk68LvDOQ_B9yEuANfnYq9wteYyvgclJnw3LzKX12itoq51vbcN5EfbXzVp7FdnPeE8AlbrAxgckb36gs-8k" },
+  // heroCob: imagem de capa da home. Hospedada externamente (fora do nosso controle) —
+  // ver auditoria pendente antes do deploy.
   heroCob: { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDwKSIXLsZYYINiEAdp4sM3hQHrxWI0799N0hhmHkOYVthWuUn5pwgm-g29wOGJcH8RlP3PQoNPDMNfu4C00CpwAeHrfIiASKlzOF0g_WySs4k9Y2UIqS5KRGXpnhnPRcpifKj5ALJjRjdAGW7Ny0HgfWOwTtQ3bQtDO1MIYsmSpXlfm4OD21oZ-3zLTs32eVmD7s2cX8FvIJWNWm7w57Jt5FQ2Vq5EQODr-y9JL72dC1QPaqKHvYvt4p6EfGJvPCAZOYaG-pXuFVY" },
 };
 
@@ -19,6 +15,7 @@ export const CHAPTERS = [
   icon: 'foundation',
   intro: 'Toda construção começa antes do primeiro tijolo, do primeiro punhado de terra ou da primeira estaca de bambu. Ela começa na forma como você olha para o lugar onde vai construir — e é isso que esta seção quer te ajudar a desenvolver: um jeito de olhar, para além de um conjunto de regras fixas para decorar.',
   blocks: [
+    {k:'video', url:'https://www.youtube.com/embed/RvWBN71VK_E', cap:'Vídeo — Soluções Ecoeficientes para a Construção nas Grandes Cidades, por Ecoeficientes (Rafael Loschiavo Miranda).'},
     {k:'p', t:'Os quatro campos que vamos percorrer aqui — bioconstrução, arquitetura bioclimática, biomimética e soluções baseadas na natureza — são compartimentos complementares: ângulos diferentes da mesma pergunta, como construir de um jeito que converse com o lugar, em vez de impor uma solução pronta sobre ele.'},
     {k:'h2', t:'1.1 Bioconstrução: uma forma de pensar antes de ser uma lista de materiais'},
     {k:'p', t:'Existe uma ideia sedutora de que bioconstrução é sobre estética — o jeitão rústico, orgânico, "de sítio". Vale ir além: bioconstrução pode ser compreendida, antes de tudo, como uma forma de avaliar tecnicamente um material pelo que ele entrega, não pela aparência que carrega.'},
@@ -46,6 +43,7 @@ export const CHAPTERS = [
       {l:'Wikipedia (verbete revisado) — Arquitetura Vernacular, histórico e definições', u:'https://pt.wikipedia.org/wiki/Arquitetura_vernacular'},
       {l:'Encyclopedia of Vernacular Architecture of the World — base de dados acadêmica de referência', u:'https://www.vernaculararchitecture.com/'},
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/46e3YXTWYHk', cap:'Vídeo — Arquitetura Vernacular: o que é e por que fundamenta a bioconstrução, por Rama Permacultura.'},
     {k:'h2', t:'1.2 Arquitetura Bioclimática: deixando o clima participar do desenho'},
     {k:'p', t:'Há uma sequência de decisões que vale a pena respeitar em qualquer projeto — cada uma prepara o terreno, literalmente, para a próxima.'},
     {k:'h3', t:'Primeiro, escute o clima do lugar'},
@@ -79,6 +77,10 @@ export const CHAPTERS = [
       {l:'ProjetEEE (MME) — glossário e explicação oficial do zoneamento bioclimático', u:'https://projeteee.mme.gov.br/glossario/zoneamento-bioclimatico-brasileiro/'},
       {l:'Climate Consultant (UCLA) — gera a carta completa a partir de um arquivo .epw', u:'https://climate.onebuilding.org/'},
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/GGBOcj6-lX8', cap:'Vídeo — Conforto ambiental, módulo 2: diagrama de Givoni e estratégias bioclimáticas, por Conforto e Projeto.'},
+    {k:'links', title:'Mais vídeos sobre arquitetura bioclimática', items:[
+      {l:'Jean Tosetto — Luz solar e ventilação são investimentos: arquitetura bioclimática economiza dinheiro e garante saúde', u:'https://www.youtube.com/watch?v=kvMCpOKCQmo'},
+    ]},
     {k:'h3', t:'Técnicas vernaculares para a zona de aquecimento solar passivo'},
     {k:'p', t:'A zona "massa térmica para aquecimento / aquecimento solar passivo" da carta de Givoni não é só um rótulo — o Manual do Arquiteto Descalço (Johan van Lengen) descreve, com o mesmo espírito prático deste manual, um pequeno repertório de soluções vernaculares para captar e reter o calor do sol em climas frios ou de noites frias, sem depender de aquecimento artificial:'},
     {k:'list', items:[
@@ -104,6 +106,7 @@ export const CHAPTERS = [
     ]},
     {k:'h3', t:'Um paradigma que vai além da sustentabilidade'},
     {k:'p', t:'Sustentável é reduzir o dano causado. **Regenerativo** é a edificação devolver mais do que consome — gerar mais energia do que gasta, tratar e devolver água em qualidade melhor, contribuir para mais vida no terreno. O **Living Building Challenge**, do International Living Future Institute, oferece um jeito sério e auditável de medir isso.'},
+    {k:'p', t:'Um estudo brasileiro recente ajuda a levar esse paradigma da escala de uma casa para a escala de um bairro ou território — o mesmo salto de escala que a Seção 11 deste manual faz ao tratar contextos urbanos, periurbanos e rurais. Dias e Kós (Universidade Federal de Santa Catarina, publicado na *Arquitetura Revista* da UNISINOS, 2021) aplicaram o método das Guias de Projeto Regenerativo para Campus Universitário à borda do Campus Trindade da UFSC, em Florianópolis, cruzando 13 áreas temáticas — água, energia, materiais, terra, mobilidade, comunidade e ensino entre elas — para chegar a dez diretrizes regenerativas concretas. Duas delas dialogam diretamente com o repertório deste manual: **infraestrutura verde e drenagem** (córregos alargados e naturalizados em vez de canalizados, absorvendo picos de chuva — o mesmo princípio por trás do jardim de chuva da Seção 1.4) e **captação, reutilização e tratamento de água** (separação de água cinza e negra, captação pluvial integrada entre edificação e comunidade vizinha — o mesmo raciocínio do "coban" e da cisterna que a Seção 5 detalha em escala doméstica). O estudo reforça um ponto que vale reter: o projeto regenerativo não é uma lista de certificações a cumprir, mas uma mudança de pergunta — de "como eu reduzo meu dano?" para "como esta construção pode devolver mais saúde ao ecossistema e à comunidade ao redor do que havia antes dela?".'},
     {k:'quote', t:'Imagine duas casas idênticas, uma no litoral amazônico e outra no semiárido nordestino. Que decisões deveriam mudar entre uma e outra?'},
     {k:'h2', t:'1.3 Biomimética: aprendendo o método, não só admirando os exemplos'},
     {k:'p', t:'Biomimética é um método estruturado de resolver problemas, com seis etapas que valem a pena aprender de verdade:'},
@@ -115,7 +118,7 @@ export const CHAPTERS = [
       '**Emular** esse mecanismo em um sistema construtivo real.',
       '**Avaliar** à luz dos Princípios de Vida — usar energia disponível no entorno, adaptar-se ao contexto, otimizar em vez de maximizar.',
     ]},
-    {k:'img', ...IMG.soilStrata, cap:'Fig 1.3 — Estudo de estratos de solo e fundação'},
+    {k:'video', url:'https://www.youtube.com/embed/StcZfOI4XCQ', cap:'Vídeo — Tudo começa no jardim: a biomimética na prática, por Denise Paspardelli (TEDxIndaiatuba).'},
     {k:'h3', t:'Um caso que vale a pena conhecer em profundidade'},
     {k:'p', t:'O Eastgate Centre, em Harare, Zimbábue, não conta com ar-condicionado central. O que foi traduzido do cupinzeiro não foi a forma externa, mas o mecanismo: massa térmica combinada com dutos de convecção. O consumo energético para climatização é significativamente menor que o de um edifício convencional equivalente.'},
     {k:'list', items:[
@@ -127,6 +130,10 @@ export const CHAPTERS = [
     {k:'h3', t:'Um método muito mais amplo do que a construção civil'},
     {k:'p', t:'O termo "biomimética" (do grego *bios*, vida, e *mimesis*, imitação) foi cunhado pelo engenheiro e biofísico americano **Otto Schmitt** ainda nos anos 1950, ao estudar o sistema nervoso do lagostim para desenvolver um circuito eletrônico — o chamado "gatilho de Schmitt", hoje um componente básico da eletrônica digital. A palavra circulou por décadas em nichos acadêmicos até que a bióloga e escritora **Janine Benyus** a popularizou mundialmente em 1997, no livro *Biomimicry: Innovation Inspired by Nature*, propondo a biomimética como uma disciplina de design completa — não uma curiosidade científica, mas um método replicável, o mesmo das seis etapas acima.'},
     {k:'p', t:'As aplicações vão muito além de edifícios. O velcro nasceu em 1941 quando o engenheiro suíço George de Mestral observou ao microscópio os pequenos ganchos de uma semente de bardana grudada em seu cachorro. O nariz do trem-bala japonês Shinkansen 500 foi redesenhado com a forma do bico do martim-pescador para eliminar o estrondo sônico ao sair de túneis, reduzindo ruído e consumo de energia. Pás de turbinas eólicas com bordas onduladas, inspiradas nas nadadeiras da baleia-jubarte, geram mais energia com menos turbulência. Na medicina, a pele de tubarão inspirou revestimentos hospitalares que dificultam a fixação de bactérias. É esse mesmo método — função primeiro, forma depois — que este manual aplica à construção: da cúpula geodésica (Seção 4) inspirada na casca do ovo, ao cupinzeiro do Eastgate Centre acima, até as soluções baseadas na natureza que vêm a seguir.'},
+    {k:'video', url:'https://www.youtube.com/embed/k_GFq12w5WU', cap:'Vídeo — Biomimicry in action, palestra TED de Janine Benyus (legendas disponíveis em português).'},
+    {k:'links', title:'Mais vídeos sobre biomimética aplicada', items:[
+      {l:'PicaPicaTV — Como os cupinzeiros resfriam a si mesmos: arquitetura biomimética do Eastgate Centre (Zimbábue)', u:'https://www.youtube.com/watch?v=qP8DSdfoiZw'},
+    ]},
     {k:'h2', t:'1.4 Soluções Baseadas na Natureza: paisagem que também trabalha'},
     {k:'p', t:'Cada tipologia de SbN tem uma função de engenharia real por trás — e precisa de dimensionamento cuidadoso, como qualquer sistema de engenharia.'},
     {k:'h3', t:'De onde vem o conceito, e por que ele é maior do que parece'},
@@ -147,10 +154,12 @@ export const CHAPTERS = [
       '**Wetland construída**: trata efluente doméstico por processo biológico; dimensionamento depende do número de moradores e do tempo de retenção hidráulica.',
     ]},
     {k:'p', t:'O Ministério do Meio Ambiente já mapeou que boa parte desses insumos consta no SINAPI, o que facilita orçá-los com a mesma referência de obra convencional (Seção 7).'},
+    {k:'video', url:'https://www.youtube.com/embed/Vj_vIUVG7i8', cap:'Vídeo — Jardins de chuva: como a natureza pode prevenir enchentes na cidade, por Izabele Colusso.'},
     {k:'quote', t:'Olhe para o terreno que você tem em mente. Para onde a água da chuva escoa hoje, naturalmente?'},
     {k:'h2', t:'1.5 Geobiologia, Radiestesia e Síndrome do Edifício Doente'},
     {k:'p', t:'Esses dois temas costumam aparecer juntos, e a preocupação de fundo é genuína: será que o lugar onde vou construir tem algo que pode afetar a saúde de quem vai morar ali?'},
     {k:'h3', t:'Geobiologia e Radiestesia'},
+    {k:'img', src:'./assets/fundamentos/geobiologia-radiestesia.png', alt:'Ilustração conceitual de uma figura humana sobre um terreno atravessado por linhas e fluxos de energia, entre camadas de água e paisagem', cap:'Ilustração conceitual — a leitura sensível do terreno, entre o que se vê e o que se sente antes de construir.'},
     {k:'p', t:'Segundo o \u201cCaderno de Geobiologia: A Vida em Harmonia com o Ambiente\u201d, do engenheiro agrônomo José Carlos da Silveira (UFV), o nome vem da junção **Geo** (influência da Terra) + **Biologia** (estudo dos fenômenos vitais): a Geobiologia se propõe a estudar as energias do ambiente — tanto de ordem psíquica quanto física (veios de água subterrânea, falhas geológicas, linhas de cruzamento) — que, segundo essa tradição, poderiam interferir na saúde de quem habita o espaço. O material parte da preocupação com o que chama de \u201ccasa saudável\u201d, tanto para a família agrícola quanto para as famílias urbanas.'},
     {k:'p', t:'A Radiestesia, descrita no \u201cCaderno de Radiestesia: Instruções Práticas Tradicionais\u201d, do mesmo autor, é apresentada como a técnica usada para investigar essas energias, através da leitura de reações do próprio investigador com instrumentos simples — a varinha e o pêndulo — que ampliariam, segundo essa tradição, a percepção humana a estímulos vibratórios sutis do ambiente.'},
     {k:'p', t:'Até o momento não existem testes controlados e cegos que confirmem, de forma reproduzível, a capacidade de detecção alegada — mas cada preocupação da geobiologia tem um caminho técnico consolidado para ser investigada:'},
@@ -184,6 +193,7 @@ export const CHAPTERS = [
       {l:'Silva, Â.E.S. — Síndrome do Edifício Doente, Trabalho Final de Mestrado em Medicina, Universidade de Lisboa (2017) — baixar PDF', u:'./assets/sindrome-do-edificio-doente-tese.pdf'},
       {l:'Silva, Â.E.S. — mesma tese no repositório oficial da Universidade de Lisboa', u:'https://repositorio.ulisboa.pt/bitstream/10451/30896/1/AngelaESSilva.pdf'},
     ]},
+    {k:'p', t:'Nota de transparência: para esta seção, buscamos deliberadamente não incluir vídeos de radiestesia ou geobiologia — o próprio texto acima já é criterioso ao apontar que essas práticas carecem de validação por testes controlados, e ilustrar a seção com um vídeo de "como usar o pêndulo" contradiria esse cuidado. Também não localizamos um documentário ou vídeo educativo consolidado especificamente sobre a Síndrome do Edifício Doente que atendesse ao mesmo padrão de qualidade e verificação dos demais vídeos deste manual. Preferimos deixar esta seção sem vídeo embutido a comprometer o rigor do conteúdo.'},
     {k:'h2', t:'1.6 Juntando as peças: uma visão sistêmica'},
     {k:'pre', t:'1. Você escuta o terreno (clima + avaliação de saúde do local — 1.2 e 1.5)\n        ↓\n2. Zona bioclimática e carta de Givoni ajudam a escolher a estratégia passiva (1.2)\n        ↓\n3. As quatro perguntas de 1.1 orientam material e técnica → Seção 3\n        ↓\n4. Biomimética resolve um desafio específico (1.3) → Seção 4\n        ↓\n5. SbN cuidam da água e do microclima na escala do lote (1.4)\n        ↓\n6. Ventilação e paredes que respiram previnem a Síndrome do Edifício Doente (1.5)'},
     {k:'p', t:'Essa sequência não é uma lista de tarefas isoladas — é um raciocínio contínuo, quase um organismo próprio, em que cada decisão alimenta a seguinte.'},
@@ -201,6 +211,7 @@ export const CHAPTERS = [
       {l:'IUCN Global Standard for Nature-based Solutions', u:'https://www.iucn.org/our-work/topic/nature-based-solutions'},
       {l:'MMA — Cidades Verdes e Resilientes / Estratégia Nacional de SbN', u:'https://www.gov.br/mma/pt-br/assuntos/meio-ambiente-urbano-recursos-hidricos-qualidade-ambiental/cidades-verdes-resilientes/SBN'},
       {l:'Living Building Challenge (International Living Future Institute)', u:'https://living-future.org/lbc/'},
+      {l:'Dias, F.P.; Kós, J.R.P. — Diretrizes de Projeto Regenerativo: uma revisão nos limites do campus universitário (Arquitetura Revista, UNISINOS, v.17, n.1, 2021, DOI 10.4013/arq.2021.171.09) — estudo de caso brasileiro (UFSC) aplicando o método a um território real', u:'https://www.redalyc.org/journal/1936/193666072009/html/'},
     ]},
     {k:'links', title:'Formação e saúde da edificação', items:[
       {l:'Instituto Federal de Goiás — Curso de Técnicas de Bioconstrução', u:'https://www.ifg.edu.br/'},
@@ -223,6 +234,10 @@ export const CHAPTERS = [
       '**Vegetação de grande porte próxima** — raízes interferem física e hidricamente.',
       '**Inclinação do terreno** — pode exigir fundações escalonadas ou muros de contenção.',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/3RJr4K0MwYU', cap:'Vídeo — Como fazer a drenagem de terreno, por Lacerda Construção.'},
+    {k:'links', title:'Mais vídeos sobre avaliação e amostragem de solo', items:[
+      {l:'Agriconline — Série Análise de Solo #01: como fazer amostragem de solo', u:'https://www.youtube.com/watch?v=BXxZGptrutI'},
+    ]},
     {k:'h2', t:'2.2 Coleta de dados: entendendo o que existe abaixo da superfície'},
     {k:'p', t:'A **sondagem SPT** (NBR 6484) mede o número de golpes (N) para cravar um amostrador padrão, classificando o solo:'},
     {k:'list', items:[
@@ -231,6 +246,11 @@ export const CHAPTERS = [
     ]},
     {k:'p', t:'A NBR 8036 orienta a quantidade mínima de furos: terrenos até 1.200 m² pedem ao menos 2 sondagens; até 2.400 m², ao menos 3; furo adicional a cada 800 m² além disso.'},
     {k:'callout', title:'Quando uma avaliação mais simples pode bastar', text:'Para construções pequenas, leves e de um pavimento — cúpulas, yurts, taipa de pilão modesta — uma inspeção visual cuidadosa pode orientar a decisão. Mas sempre que o solo mostrar sinais de fragilidade (matéria orgânica, solo mole, água aflorando, histórico de aterro), a sondagem formal deixa de ser opcional.'},
+    {k:'video', url:'https://www.youtube.com/embed/cMz5fQ2x6i4', cap:'Vídeo — Como é feita a sondagem SPT na obra, passo a passo real, por Fundações Sem Complicações.'},
+    {k:'links', title:'Vídeos gratuitos sobre sondagem SPT e fundações', items:[
+      {l:'Sondagem SPT — o que é e como é realizada (explicação didática)', u:'https://www.youtube.com/watch?v=Mv3AiTQ_LgU'},
+      {l:'Blog APL Engenharia — interpretação geotécnica do SPT, com vídeos da série "Geotecnia em 60 segundos"', u:'https://blog.apl.eng.br/interpretacao-geotecnica-do-spt-como-analisar-corretamente-os-dados-e-evitar-erros-no-projeto-de-fundacoes/'},
+    ]},
     {k:'h2', t:'2.3 Escolhendo o tipo de fundação conforme a técnica construtiva'},
     {k:'table', head:['Técnica construtiva','Fundação que costuma se destacar'], rows:[
       ['Taipa de pilão, pau-a-pique','Baldrame corrido, elevado ao menos 30 cm, em pedra ou concreto'],
@@ -241,10 +261,9 @@ export const CHAPTERS = [
       ['Earthships (pneus)','Trincheira com a fiada de pneus servindo de transição'],
       ['Alvenaria de pedra','Fundação em pedra maior sobre solo firme'],
     ]},
-    {k:'img', alt:'baldrame', cap:'Fig 7.3a — Baldrame corrido'},
-    {k:'img', alt:'trincheira de brita', cap:'Fig 7.3b — Trincheira de brita'},
-    {k:'img', alt:'sapatas isoladas', cap:'Fig 7.3c — Sapatas isoladas'},
-    {k:'img', alt:'palafitas', cap:'Fig 7.3d — Palafitas'},
+    {k:'video', url:'https://www.youtube.com/embed/vP_FHRf32ZA?start=225', cap:'Vídeo — Trincheira drenante: quanto antes você souber disso, melhor, por Eng. Petrucio Santos Junior.'},
+    {k:'video', url:'https://www.youtube.com/embed/aGc-PlqaEdM', cap:'Vídeo — Como dimensionar sapatas isoladas, por Igo Nunes.'},
+    {k:'video', url:'https://www.youtube.com/embed/kkla71pwqwQ', cap:'Bioconstrução, baixo custo, ambiente e sabedoria'},
     {k:'h2', t:'2.4 Cuidados que decidem a durabilidade'},
     {k:'list', items:[
       '**Barreira contra umidade ascendente** — manta impermeável entre fundação e parede, crítica para terra crua.',
@@ -252,6 +271,7 @@ export const CHAPTERS = [
       '**Drenagem perimetral** — camada de brita ao redor da fundação ("dreno francês").',
       '**Nivelamento cuidadoso** — qualquer desnível se propaga para toda a estrutura acima.',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/WXSPBJRAixc', cap:'Vídeo — Impermeabilização da fundação de maneira correta: adeus umidade ascendente, por Oliveira Construtor.'},
     {k:'h2', t:'2.5 Passo a passo de execução de uma fundação simples'},
     {k:'list', ordered:true, items:[
       '**Locação da obra** — marcar o contorno com gabarito e linha, conferindo esquadros e medidas.',
@@ -262,12 +282,8 @@ export const CHAPTERS = [
       '**Impermeabilização e barreira capilar** — manta no topo da fundação.',
       '**Conferência de nivelamento** — só então iniciar parede ou estrutura.',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/K_LCJkLZx4s', cap:'Vídeo — Fundação: como fazer o gabarito, sapata e baldrame (ou alicerce) de uma casa, por Faça Você.'},
     {k:'quote', t:'Ao lembrar do checklist da Seção 1.5 e do que você leu aqui, existe algum sinal de alerta no seu terreno que pede uma sondagem formal antes de decidir a fundação?'},
-    {k:'links', title:'Vídeos gratuitos sobre sondagem SPT e fundações', items:[
-      {l:'Como é feita a sondagem SPT na obra (passo a passo real, em vídeo)', u:'https://www.youtube.com/watch?v=cMz5fQ2x6i4'},
-      {l:'Sondagem SPT — o que é e como é realizada (explicação didática)', u:'https://www.youtube.com/watch?v=Mv3AiTQ_LgU'},
-      {l:'Blog APL Engenharia — interpretação geotécnica do SPT, com vídeos da série "Geotecnia em 60 segundos"', u:'https://blog.apl.eng.br/interpretacao-geotecnica-do-spt-como-analisar-corretamente-os-dados-e-evitar-erros-no-projeto-de-fundacoes/'},
-    ]},
     {k:'h2', t:'2.6 Fontes e para você aprofundar'},
     {k:'links', items:[
       {l:'NBR 6484:2020 — Sondagem SPT', u:'https://www.abnt.org.br/'},
@@ -302,6 +318,12 @@ export const CHAPTERS = [
       '**Teste da tira (ou fita)** — amasse terra com água até virar uma pasta homogênea e molde uma tira de cerca de 20 cm de comprimento por 2 a 2,5 cm de largura; empurre a tira para fora da palma da mão com o polegar, deixando-a quebrar pelo próprio peso. Se romper antes de 5 cm, a terra é arenosa demais; se aguentar mais de 15 cm sem quebrar, tem argila demais; entre 5 e 15 cm, está no ponto para adobe.',
     ]},
     {k:'callout', title:'Quando a terra local não atinge a proporção ideal', text:'O manual original registra um traço de referência para corrigir terra fora do ponto, em partes de volume: 4 a 8 partes de areia para 4 partes de argila e 1 parte de água — ajustado sempre pelo resultado do teste da caixa, nunca aplicado às cegas. Ainda assim, a mistura corrigida deve secar com tonalidade uniforme, sem listras de cores diferentes.'},
+    {k:'video', url:'https://www.youtube.com/embed/EMdz_XYnJWM', cap:'Vídeo — Testando o solo/terra e fazendo o tijolo, por PIPA.CASA.'},
+    {k:'links', title:'Mais vídeos sobre testes de solo para bioconstrução', items:[
+      {l:'rbinhardi — Teste de solo: areia/argila', u:'https://www.youtube.com/watch?v=54gfHqchqCM'},
+      {l:'TIBÁ — Traços da Terra: proporções de traço para terra crua', u:'https://www.youtube.com/watch?v=HDC4KrMeJhI'},
+      {l:'Bioconstrução ArteNativamente — Testes com a terra', u:'https://www.youtube.com/watch?v=VGRnq9aBYDk'},
+    ]},
     {k:'h2', t:'3.2 Pau-a-pique (taipa de mão): trama e barro trabalhando juntos'},
     {k:'p', t:'Uma das técnicas mais antigas do Brasil: quando bem executada, regula a umidade do ambiente e mantém a casa agradável em qualquer estação.'},
     {k:'list', ordered:true, items:[
@@ -312,8 +334,13 @@ export const CHAPTERS = [
       'Aplique empurrando o barro pelos vãos da trama, idealmente duas pessoas trabalhando de cada lado da parede.',
       'Deixe secar bem antes do reboco de acabamento.',
     ]},
-    {k:'img', ...IMG.paupique, cap:'Fig 2.2 — Corte da trama de bambu (pau-a-pique)'},
     {k:'p', t:'Dois cuidados decidem a durabilidade: base afastada do solo (embasamento de pedra ou concreto) para evitar capilaridade, e beiral generoso para proteger da chuva direta.'},
+    {k:'video', url:'https://www.youtube.com/embed/WMdpbZuEzJI', cap:'Vídeo — Construção de pau a pique passo a passo completo, por Conhecimentos Antigos (Sítio Ares da Piloa).'},
+    {k:'links', title:'Mais vídeos sobre pau-a-pique', items:[
+      {l:'Chico Abelha — Aprenda a construir com pau a pique: dicas e sugestões', u:'https://www.youtube.com/watch?v=ZG3cYOi_8Po'},
+      {l:'Bioconstrução ArteNativamente — Tutorial: como fazer parede de terra pau a pique', u:'https://www.youtube.com/watch?v=EjlUgTbdwco'},
+      {l:'Bioconstrução ArteNativamente — Fazendo uma parede viva de cana brava', u:'https://www.youtube.com/watch?v=kTv-DK4G2t4'},
+    ]},
     {k:'h2', t:'3.3 Taipa de pilão: paredes monolíticas por compactação'},
     {k:'p', t:'A própria parede é a estrutura — sem depender de madeira por trás. Ergueu boa parte dos solares coloniais do Vale do Paraíba e de Minas Gerais.'},
     {k:'list', ordered:true, items:[
@@ -326,6 +353,10 @@ export const CHAPTERS = [
     ]},
     {k:'callout', title:'NBR 17014:2022', text:'Regulamenta o uso estrutural da taipa de pilão. Paredes bem executadas alcançam resistência superior a 2 MPa, espessuras típicas entre 30 e 50 cm. Proteção contra umidade em ordem de importância: baldrame elevado a pelo menos 30 cm, beiral generoso, impermeabilização na base. Estabilizante (cal ou cimento, 4% a 8%) quando o solo não atinge a resistência sozinho.'},
     {k:'p', t:'Pesquisas acadêmicas recentes ajudam a calibrar esse percentual de estabilizante com mais precisão: um estudo publicado na revista IMPACT Projects (2023) testando solos regionais para taipa de pilão encontrou necessidade de 14% a 16% de cimento para estabilização plena, mas verificou que um teor otimizado de 10% já atinge a resistência mecânica mínima exigida pela NBR 17014:2022 com melhor custo-benefício — um bom lembrete de que o percentual final sempre depende do ensaio do solo específico do seu terreno (Seção 3.1), não de uma tabela genérica.'},
+    {k:'video', url:'https://www.youtube.com/embed/U_ureuF67QU', cap:'Vídeo — Taipa de pilão: construção econômica com terra, por Amanda e Fernando.'},
+    {k:'links', title:'Mais vídeos sobre taipa de pilão', items:[
+      {l:'DOMOSGOLD — Taipa de Pilão (Rammed Earth)', u:'https://www.youtube.com/watch?v=yz3VY-dvqv4'},
+    ]},
     {k:'h2', t:'3.4 Adobe: o tijolo que o sol cozinha'},
     {k:'list', ordered:true, items:[
       'Misture terra (60% argila, 40% areia) com água e fibra vegetal até massa homogênea.',
@@ -335,6 +366,12 @@ export const CHAPTERS = [
       'Assente com argamassa semelhante ao próprio tijolo, em fiadas alternadas.',
     ]},
     {k:'p', t:'A NBR 16814:2020 estabelece resistência mínima de 1,5 MPa, além de limites de absorção de água e retração.'},
+    {k:'video', url:'https://www.youtube.com/embed/NImPOc_vVUU', cap:'Vídeo — Passo a passo do tijolo adobe com terras argilosa e arenosa, por Samuel Timboto.'},
+    {k:'links', title:'Mais vídeos sobre parede de terra e acabamento com adobe', items:[
+      {l:'Bioconstrução ArteNativamente — Passo a passo: parede de terra + tinta de terra', u:'https://www.youtube.com/watch?v=tkoWVItjeps'},
+      {l:'Bioconstrução ArteNativamente — Reboco de cal + terra + areia na parede de terra', u:'https://www.youtube.com/watch?v=rOeacOYolbk'},
+      {l:'Bioconstrução ArteNativamente — Rebocando parede de terra', u:'https://www.youtube.com/watch?v=-2lScIGFbjE'},
+    ]},
     {k:'h2', t:'3.5 Superadobe e hiperadobe: terra ensacada em espiral'},
     {k:'p', t:'O arquiteto iraniano Nader Khalili desenvolveu o superadobe buscando um método viável até em solo lunar, em resposta a um concurso da NASA.'},
     {k:'list', ordered:true, items:[
@@ -345,8 +382,11 @@ export const CHAPTERS = [
       'Repita fiada por fiada, subindo as paredes ou fechando a cúpula em espiral.',
       'Finalize com reboco.',
     ]},
-    {k:'img', ...IMG.superadobe, cap:'Fig 2.5 — Domo de superadobe em construção'},
     {k:'p', t:'Beirais de pelo menos 80 cm são recomendados. Baixo custo, rápida execução, especialmente acolhedora para mutirões.'},
+    {k:'video', url:'https://www.youtube.com/embed/77p88QBAab0', cap:'Vídeo — Apresentação do Superadobe, técnica de Nader Khalili (Ecovillage Bourgogne/Auvergne).'},
+    {k:'links', title:'Mais vídeos sobre hiperadobe', items:[
+      {l:'Bioconstrução ArteNativamente — Parede de hiperadobe: passo a passo', u:'https://www.youtube.com/watch?v=v-hh37UElVs'},
+    ]},
     {k:'h2', t:'3.6 Tadelakt: um acabamento impermeável que dispensa rejunte'},
     {k:'p', t:'Reboco de cal de origem marroquina, documentado desde o século XII, tradicionalmente aplicado em cisternas, hammams e banheiras.'},
     {k:'list', ordered:true, items:[
@@ -357,8 +397,17 @@ export const CHAPTERS = [
       'Aplique solução de sabão preto ou de oliva — forma estearato de cálcio, insolúvel.',
       'A cura acontece por carbonatação, com acabamento de aspecto de porcelana.',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/2NlTaqMtjcs', cap:'Vídeo — Tutorial Tadelakt: como fazer, passo a passo completo.'},
+    {k:'links', title:'Mais vídeos sobre acabamentos de terra em banheiros', items:[
+      {l:'Bioconstrução ArteNativamente — O banheiro de terra mais lindo do Brasil', u:'https://www.youtube.com/watch?v=lSuEIIqNOS4'},
+    ]},
     {k:'h2', t:'3.7 Estruturas de madeira: do entramado convencional ao encaixe'},
     {k:'p', t:'**Estruturas convencionais** usam montantes e vigas unidos por pregos ou conectores (NBR 7190). **Estruturas de encaixe** unem madeira à madeira sem metal, através de entalhes e mortalhas — permitem desmontagem e remontagem e duram gerações quando bem protegidas da umidade.'},
+    {k:'video', url:'https://www.youtube.com/embed/Vua-BjpkBrk', cap:'Vídeo — Encaixe estilo japonês para madeiras, sem parafusos, por Made in Quintal.'},
+    {k:'links', title:'Mais vídeos sobre encaixes de madeira e estruturas de bambu', items:[
+      {l:'Stopa Lab — Encaixe em madeira: marcenaria sem prego e parafuso', u:'https://www.youtube.com/watch?v=fatLGh6nVHI'},
+      {l:'Bioconstrução ArteNativamente — Integral bambu feita com as medidas do corpo', u:'https://www.youtube.com/watch?v=2T9i5aQjyLQ'},
+    ]},
     {k:'h2', t:'3.8 Palafitas: elevando a casa sobre a água'},
     {k:'list', ordered:true, items:[
       'A estaca (andiroba, ipê) é cravada até encontrar lama mais firme — em média 3 a 4 metros.',
@@ -366,12 +415,21 @@ export const CHAPTERS = [
       'Altura calculada considerando maré de sizígia ou nível histórico máximo de cheia.',
       'Em enchente maior que a prevista, ergue-se um segundo assoalho temporário ("maromba").',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/LUraqGWVODE', cap:'Vídeo — Projeto "Casa Palafita" da UFPA valoriza arquitetura amazônica e saberes tradicionais, por O Liberal.'},
     {k:'h2', t:'3.9 Alvenaria de pedra: durabilidade que já vem pronta'},
     {k:'p', t:'Onde a pedra é abundante, oferece resistência excepcional com pouco processamento. A alvenaria seca resiste bem a pequenos movimentos do solo; quando um ligante é necessário, argamassa de cal se comporta melhor que cimento junto à pedra.'},
+    {k:'video', url:'https://www.youtube.com/embed/umwWXySpI2c', cap:'Vídeo — How to build a Dry Stone Wall: the basics, por Dry Stone TV.'},
     {k:'h2', t:'3.10 Materiais híbridos e de reaproveitamento'},
     {k:'list', items:[
       '**Plasto-cimento (garrafas PET)**: garrafas preenchidas com terra ou resíduos, empilhadas e fixadas com argamassa — o ar preso funciona como isolante.',
       '**Marcreto (biorock/seacrete)**: corrente elétrica de baixa intensidade precipita carbonato de cálcio da água do mar, formando rocha ao redor de uma estrutura submersa.',
+      '**Fardo de palha (straw bale)**: fardos compactados de palha (resíduo agrícola de cereais, não confundir com feno) empilhados como blocos e amarrados entre si, formando uma parede de altíssimo isolamento térmico; recebe estrutura de contenção (madeira ou tela) e reboco de terra ou cal nas duas faces para proteção contra fogo, umidade e roedores.',
+    ]},
+    {k:'video', url:'https://www.youtube.com/embed/QQIcYw0egoQ', cap:'Vídeo — Bloco de garrafa e cimento passo a passo, por Roberto Araújo Construção Civil.'},
+    {k:'video', url:'https://www.youtube.com/embed/o_cijJ9RS8o', cap:'Vídeo — Passo a passo: parede de palha (fardo de palha), por Bioconstrução ArteNativamente.'},
+    {k:'links', title:'Mais vídeos sobre fardo de palha', items:[
+      {l:'Bioconstrução ArteNativamente — Fazendo um banheiro com terra e palha', u:'https://www.youtube.com/watch?v=qp1insKvzio'},
+      {l:'Bioconstrução ArteNativamente — Parede de fardo de palha', u:'https://www.youtube.com/watch?v=zU4HGhSLKUc'},
     ]},
     {k:'h2', t:'3.11 Tetos verdes e jardins de chuva: as camadas que sustentam a função'},
     {k:'list', ordered:true, items:[
@@ -381,6 +439,11 @@ export const CHAPTERS = [
       'Manta filtrante (geotêxtil).',
       'Substrato de crescimento, leve e poroso.',
       'Vegetação, escolhida pela tolerância a sol, vento e variação hídrica.',
+    ]},
+    {k:'video', url:'https://www.youtube.com/embed/uaB39YcJgLQ', cap:'Vídeo — Telhado verde extensivo: passo a passo, por Bioconstrução ArteNativamente.'},
+    {k:'p', t:'Nota de transparência: **Gernot Minke** — arquiteto alemão referência mundial em construção com terra e tetos verdes, e um dos nomes mais citados neste manual — coordenou a primeira cúpula de terra crua com teto verde da América Latina, no Integria (Picada Café, RS), e deu dezenas de palestras sobre o tema no Brasil. Não localizamos, até o fechamento desta curadoria, uma palestra ou vídeo gravado especificamente sobre teto verde disponível publicamente (os vídeos dele já citados nesta seção 3, e nas Seções 3.1–3.6, tratam de terra crua em geral). O vídeo acima e o link abaixo são as referências em vídeo mais próximas e verificadas que encontramos.'},
+    {k:'links', title:'Mais vídeos sobre tetos verdes', items:[
+      {l:'Growing Gardeners — How to build a Green Roof', u:'https://www.youtube.com/watch?v=KJTme3wdsqc'},
     ]},
     {k:'h2', t:'3.12 Earthships: a casa como sistema fechado'},
     {k:'p', t:'Conceito desenvolvido por Michael Reynolds a partir da década de 1970, organizado em seis princípios integrados:'},
@@ -393,6 +456,10 @@ export const CHAPTERS = [
       'Produção de alimento dentro da própria edificação.',
     ]},
     {k:'p', t:'Um protótipo no Ceará adapta os princípios de Reynolds ao semiárido nordestino, sempre recalibrando cada estratégia conforme a zona bioclimática (Seção 1.2).'},
+    {k:'video', url:'https://www.youtube.com/embed/DZGFc_NxDrc', cap:'Vídeo — The Garbage Warrior: Michael Reynolds e a Earthship Biotecture, palestra em Auckland Conversations.'},
+    {k:'links', title:'Mais vídeos sobre earthships', items:[
+      {l:'Earthship Biotecture (canal oficial) — Michael Reynolds apresenta o conceito', u:'https://www.youtube.com/watch?v=TlntQ9EgOxg'},
+    ]},
     {k:'h2', t:'3.13 Combinando técnicas conforme o terreno'},
     {k:'table', head:['Situação','Técnicas que costumam se destacar'], rows:[
       ['Semiárido, grande amplitude térmica','Taipa de pilão, adobe, superadobe/hiperadobe'],
@@ -403,6 +470,9 @@ export const CHAPTERS = [
       ['Estruturas costeiras ou flutuantes','Marcreto, bambu (Seção 4)'],
     ]},
     {k:'h2', t:'3.14 Fontes e para você aprofundar'},
+    {k:'links', title:'Acompanhamento de obra completa', items:[
+      {l:'Bioconstrução ArteNativamente — Tudo o que fizemos nessa obra de bioconstrução', u:'https://www.youtube.com/watch?v=HSn9aLat8_8'},
+    ]},
     {k:'links', title:'Normas técnicas', items:[
       {l:'ABNT NBR 17014:2022 — Taipa de pilão', u:'https://www.abnt.org.br/'},
       {l:'Estudo IMPACT Projects (2023) — teor de estabilizante em solos para taipa de pilão', u:'https://eventos.antac.org.br/index.php/enarc/article/view/3074'},
@@ -426,7 +496,7 @@ export const CHAPTERS = [
   icon: 'format_shapes',
   intro: 'Existe uma família de formas que a natureza descobriu muito antes da engenharia: a casca de ovo, a concha, a teia de aranha, a bolha de sabão. Todas resolvem o mesmo desafio — cobrir o máximo de espaço com o mínimo de material — distribuindo a carga por toda a superfície.',
   blocks: [
-    {k:'img', alt:'ovo e bolhas de sabão', cap:'Fig 3.1 — Princípio da casca dupla: ovo e bolhas de sabão'},
+    {k:'img', src:'./assets/estruturas/principio-dupla-casca.jpeg', alt:'Diagrama comparando o corte de um ovo (casca dura e membrana) com o corte de uma bolha de sabão (filme externo, filme interno e bolsa de ar), ilustrando o princípio da casca dupla', cap:'Princípio da dupla casca: ovo e bolhas de sabão — duas cascas finas separadas por uma câmara de ar resolvem resistência com o mínimo de material.'},
     {k:'h2', t:'4.1 Domos e cúpulas geodésicas: triangulação que sustenta a si mesma'},
     {k:'p', t:'Uma cúpula geodésica cobre a superfície de uma esfera com uma malha de triângulos — é essa triangulação, não o material em si, que faz a estrutura ser tão resistente com tão pouco peso.'},
     {k:'p', t:'O ponto de partida mais comum é o icosaedro, um sólido de 20 faces triangulares. Ao subdividir cada face e projetar os vértices para a superfície de uma esfera, criamos a cúpula. O número de subdivisões é a **frequência** (V):'},
@@ -436,7 +506,6 @@ export const CHAPTERS = [
       '**Frequência 3V e 4V**: as mais usadas em construções habitáveis — bom equilíbrio entre resistência e viabilidade manual.',
       '**Frequências 5V+**: superfície mais lisa, mas exigem mais precisão e software de apoio.',
     ]},
-    {k:'img', alt:'cúpula geodésica', cap:'Fig 3.1 — Cúpula geodésica: malha de triângulos'},
     {k:'p', t:'Quanto maior a frequência, maior a variedade de comprimentos de barra (classes de aresta) — vale mapear todas antes de cortar qualquer material.'},
     {k:'h3', t:'Passo a passo prático de quem está começando'},
     {k:'list', ordered:true, items:[
@@ -448,6 +517,13 @@ export const CHAPTERS = [
       'Reforce as conexões dos vértices com placas metálicas ou conectores específicos.',
     ]},
     {k:'domecalc'},
+    {k:'video', url:'https://www.youtube.com/embed/rLW7WUcnQnQ', cap:'Vídeo — O método completo da construção de domos geodésicos, por Amerídia Design.'},
+    {k:'links', title:'Mais vídeos de construção de domos geodésicos', items:[
+      {l:'Ney Trinidad — Passo a passo: construção de um Domo Geodésico em Bambu (coleta, projeto e montagem)', u:'https://www.youtube.com/watch?v=cwno3LzT56Y'},
+      {l:'Domolar — Montagem passo a passo de um domo geodésico em kit', u:'https://www.youtube.com/watch?v=uPHxuNg1FL0'},
+      {l:'Biometrika Domos — Construindo um domo geodésico: 10 dias em 20 minutos (Brasil)', u:'https://www.youtube.com/watch?v=k-SBsRTaqIQ'},
+      {l:'Guia de Permacultura — Como fazer um domo geodésico com materiais de fácil aquisição', u:'https://www.youtube.com/watch?v=h-FNLa6n-9s'},
+    ]},
     {k:'links', title:'Calculadoras gratuitas de frequência e classes de barra', items:[
       {l:'Desert Domes — calculadora geodésica completa (diâmetro, frequência, comprimento de cada classe de barra)', u:'https://www.desertdomes.com/domecalc.html'},
       {l:'Domerama — calculadora de cúpula geodésica 3V (ângulos de corte e lista de materiais)', u:'https://www.domerama.com/calculators/3v-geodesic-dome-calculator/'},
@@ -461,6 +537,13 @@ export const CHAPTERS = [
       'A estrutura pode se apoiar diretamente sobre o solo, facilitando a integração com fundações convencionais.',
     ]},
     {k:'zomecalc'},
+    {k:'video', url:'https://www.youtube.com/embed/dihq2ZTHsjw', cap:'Vídeo — Domos Geodésicos e Zomes, por Amerídia Design (referência brasileira de cursos práticos de zome).'},
+    {k:'p', t:'Nota de transparência: buscamos especificamente um vídeo de Nena Alava — bioconstrutora e referência internacional em domos e zomes, autora de um dos maiores domos geodésicos do mundo (erguido para o Boom Festival, em Portugal) e instrutora no IPEC — mas não localizamos, até o fechamento desta curadoria, um vídeo dela publicamente disponível. O vídeo acima e os links abaixo são as referências mais próximas e verificadas que encontramos.'},
+    {k:'links', title:'Mais vídeos sobre zomes', items:[
+      {l:'Hugo Grisetti (Fractal Architect / Zomos Domos) — Zome Workshop: design, cálculo e construção', u:'https://www.youtube.com/watch?v=PDY38nzsqYA'},
+      {l:'Paul Robinson — UnityDome: plantas gratuitas para um dos domos geodésicos mais eficientes', u:'https://www.youtube.com/watch?v=V_KhrXggRsU'},
+      {l:'Frecuencia Tierra — Bioconstrucción: qué es un zome, a geometria e como construir passo a passo', u:'https://www.youtube.com/watch?v=ArKH8OFLcNk'},
+    ]},
     {k:'h2', t:'4.3 Yurts (gers): a engenharia nômade que resiste ao vento da estepe'},
     {k:'p', t:'O yurt resolve dois problemas ao mesmo tempo: resistência estrutural e portabilidade total.'},
     {k:'table', head:['Componente','Função'], rows:[
@@ -470,7 +553,6 @@ export const CHAPTERS = [
       ['Bagana','Colunas centrais de apoio, em yurts maiores'],
       ['Faixa de tensão','Cinta que resiste à tração gerada pelas varas do telhado'],
     ]},
-    {k:'img', alt:'yurt', cap:'Fig 3.3 — Yurt: Khana, Toono e Uni'},
     {k:'p', t:'Estrutura leve, resistente a ventos fortes pela forma circular e pela flexibilidade da treliça do khana, que absorve pequenas deformações sem quebrar.'},
     {k:'h3', t:'O que a engenharia contemporânea confirma sobre essa estrutura milenar'},
     {k:'p', t:'Um estudo de 2026 do Instituto de Pesquisa em Construção Antissísmica da Universidade Técnica Estatal do Quirguistão (Mamatov, *European Journal of Applied Sciences*) traduziu o yurt quirguiz — a mesma estrutura descrita acima com outros nomes locais (kerege = khana, uuk = uni, tunduk = toono, kur = faixa de tensão) — para a linguagem da engenharia estrutural moderna, com resultados que confirmam tecnicamente o que gerações de povos nômades da Ásia Central já sabiam na prática.'},
@@ -508,21 +590,29 @@ export const CHAPTERS = [
       {l:'Yurt Brasil — bioconstrutores brasileiros que adaptaram o yurt ao clima nacional', u:'https://www.yurtbrasil.com.br/'},
       {l:'Mamatov, Z. Y. (2026) — Engineering Interpretation of the Traditional Kyrgyz Yurt and Its Adaptation for Sustainable Construction — baixar PDF', u:'./assets/Engineering_Interpretation_of_the_Traditional_Kyrg.pdf'},
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/tBRt4yEqwYA', cap:'Vídeo — How to build a Yurt: tutorial completo, por Kents of Cornwall Yurts.'},
+    {k:'links', title:'Mais vídeos sobre yurts e sua montagem', items:[
+      {l:'Espaço Naturalmente — Processo de montagem da Tenda Yurt (bioconstrução brasileira)', u:'https://www.youtube.com/watch?v=3HAHEEQOJOA'},
+      {l:'YURT BRASIL — canal oficial dos bioconstrutores brasileiros pioneiros em yurts no Brasil', u:'https://www.youtube.com/@yurtbrasil'},
+    ]},
     {k:'h2', t:'4.4 Arcos e catenárias: a forma que só trabalha em compressão'},
     {k:'p', t:'Se você pendurar uma corrente entre dois pontos, ela assume a curva natural chamada **catenária**, sob tração pura. Inverta essa curva de cabeça para baixo e vira um arco sob **compressão pura**, sem nenhum ponto tentando dobrar ou rasgar o material.'},
     {k:'p', t:'**Antoní Gaudí** construiu modelos físicos com cordas e sacos de areia pendurados, deixando a gravidade "calcular" a forma ideal — chamou esse método de estereostática, usado na Sagrada Família e na cripta da Colônia Güell.'},
-    {k:'img', alt:'método de Gaudí', cap:'Fig 3.4 — Método da corrente invertida (Gaudí)'},
     {k:'p', t:'Diversas culturas chegaram a formas próximas da catenária por observação prática, muito antes da formalização matemática: iglus inuítes, *clocháns* irlandeses e cabanas de barro do povo Musgum, em Camarões.'},
     {k:'video', url:'https://www.youtube.com/embed/Qj4K7B0fqng', cap:'Vídeo — a catenária invertida em ação: por que essa curva sustenta um arco só com compressão.'},
     {k:'links', title:'Aprofunde a matemática e experimente você mesmo', items:[
       {l:'IME-USP — A Catenária (dedução matemática completa da curva, Martha Salerno Monteiro)', u:'https://www.ime.usp.br/~martha/mat111-2004/catenaria'},
       {l:'Omni Calculator — Catenary Curve Calculator (gere sua própria curva a partir de vão e flecha)', u:'https://www.omnicalculator.com/math/catenary-curve'},
+      {l:'UNDP Climate — Reviving ancient Nubian Vaults for resilient housing in the Sahel (Association La Voûte Nubienne)', u:'https://www.youtube.com/watch?v=YIiwOSHctGw'},
     ]},
     {k:'h2', t:'4.5 Treliças naturais: triangulação com bambu e madeira'},
     {k:'p', t:'Uma treliça é uma malha de triângulos — a única figura que não se deforma sob carga sem que um lado mude de comprimento. Cada barra trabalha exclusivamente em tração ou compressão, nunca em flexão.'},
     {k:'p', t:'O bambu tem relação resistência-peso comparável à do aço em algumas aplicações, graças à estrutura tubular oca. O arquiteto colombiano Simón Vélez desenvolveu a **Ligação Vélez**: um furo próximo ao nó, um parafuso atravessando a conexão, e argamassa injetada dentro do colmo, distribuindo a força por uma área muito maior.'},
-    {k:'img', alt:'Ligação Vélez', cap:'Fig 3.5 — Ligação Vélez: conexão estrutural em bambu'},
     {k:'p', t:'Com essa técnica, Vélez construiu o Pavilhão ZERI da Expo 2000 de Hannover — mais de 2.000 m² em bambu Guadua, a primeira estrutura desse material a receber licença de construção na Alemanha.'},
+    {k:'video', url:'https://www.youtube.com/embed/FqKKl6zrtHg', cap:'Vídeo — Cobertura com treliça de bambu, por Bioestrutura Engenharia.'},
+    {k:'links', title:'Mais sobre treliças em bambu e madeira', items:[
+      {l:'Construção com bambu — playlist com técnicas, dicas e curiosidades de construções em bambu pelo mundo', u:'https://www.youtube.com/playlist?list=PLHUi6KIiCA0cCg7kN4Tek860JUiKcQ6cc'},
+    ]},
     {k:'h2', t:'4.6 Noções de cálculo estrutural para quem projeta'},
     {k:'p', t:'Todo elemento estrutural recebe três tipos de carga:'},
     {k:'list', items:[
@@ -534,6 +624,11 @@ export const CHAPTERS = [
     {k:'p', t:'Todo projeto estrutural trabalha com um fator de segurança. Estruturas com ocupação pública, mais de um pavimento, ou vãos livres grandes exigem, sem exceção, um profissional habilitado — autoconstrução consciente e cálculo estrutural responsável são parceiros, não opostos.'},
     {k:'h3', t:'Ferramentas gratuitas para calcular você mesmo, passo a passo'},
     {k:'p', t:'Nenhuma dessas ferramentas substitui a assinatura técnica de um profissional habilitado quando o projeto exigir (Seção 4.6 acima) — mas todas ajudam a entender, testar e conferir o comportamento estrutural antes de chegar a esse ponto.'},
+    {k:'video', url:'https://www.youtube.com/embed/SioSiaevnPs', cap:'Vídeo — Aprenda a calcular domos geodésicos como um profissional, por Ing. Alexis Navarro.'},
+    {k:'links', title:'Vídeo-aulas gratuitas do Ftool (análise estrutural)', items:[
+      {l:'Calcula Civil — Aprenda Ftool em 1 vídeo: tutorial passo a passo', u:'https://www.youtube.com/watch?v=uqotJnWWJG8'},
+      {l:'TechEng Academy — Cálculo de treliças utilizando o Ftool', u:'https://www.youtube.com/watch?v=prJADi8egJQ'},
+    ]},
     {k:'links', title:'Softwares gratuitos de análise estrutural', items:[
       {l:'Ftool (PUC-Rio) — o software educacional brasileiro mais usado para pórticos planos: monte a estrutura, aplique cargas e veja na hora os diagramas de esforço normal, cortante e momento fletor', u:'https://www.tecgraf.puc-rio.br/ftool'},
       {l:'Manual oficial do Ftool em português (PDF) — passo a passo completo de uso', u:'https://www.tecgraf.puc-rio.br/ftool/downloads/ftoolman_pt.pdf'},
@@ -562,8 +657,6 @@ export const CHAPTERS = [
     {k:'links', title:'Zomes: comunidades, projetos e estimativa de custos', items:[
       {l:'Zomodomo — categoria Zome: projetos, fotos e discussões práticas', u:'https://zomodomo.com/category/zome/'},
       {l:'Trillium Domes — guia completo de estimativa de custos para domos e zomes', u:'https://trilliumdomes.com/2025/03/20/estimating-costs-for-your-trillium-dome-or-zome-build-the-complete-guide/'},
-      {l:'Vídeo — construção prática de domo/zome (YouTube)', u:'https://www.youtube.com/watch?v=PDY38nzsqYA'},
-      {l:'Vídeo — construção prática de domo/zome (YouTube)', u:'https://www.youtube.com/watch?v=V_KhrXggRsU'},
     ]},
     {k:'h2', t:'4.8 Fontes e para você aprofundar'},
     {k:'links', items:[
@@ -601,6 +694,7 @@ export const CHAPTERS = [
     {k:'img', src:'./assets/saneamento/distancia-sanitario-poco.png', alt:'Diagrama mostrando distância mínima de 15 metros entre sanitário e poço, e 5 metros entre sanitário e casa', cap:'Distâncias mínimas de segurança entre sanitário, poço e casa. Ilustração original de Johan van Lengen, reproduzida do Manual do Arquiteto Descalço (TIBÁ, 2004) para fins educacionais, com citação da fonte.'},
     {k:'p', t:'Do ponto em que a fossa termina, o efluente líquido segue para um **sumidouro** (poço de absorção) ou para uma **vala de infiltração**, que devolvem a água ao subsolo já filtrada pelo lodo retido na fossa. O dimensionamento de ambos depende da capacidade de absorção do solo — outro motivo para a avaliação de terreno da Seção 2.1 conversar diretamente com este capítulo.'},
     {k:'p', t:'Desde abril de 2024, o projeto, construção e operação desses sistemas no Brasil são regidos por uma norma única: a **NBR 17076:2024**, que cancelou e substituiu as antigas NBR 7229:1993 e NBR 13969:1997, unificando num só documento a cadeia completa — do lançamento do esgoto até a disposição final do efluente. Qualquer dimensionamento formal de fossa e sumidouro deve hoje partir dela, não das normas antigas.'},
+    {k:'video', url:'https://www.youtube.com/embed/7bvFssfCdCI', cap:'Vídeo — Como fazer fossa séptica e sumidouro residencial: execução, detalhes passo a passo e tamanho, por Eng. Civil Rodrigo Ricken (Calcula Civil).'},
 
     {k:'h2', t:'5.4 Sanitário seco: quando dispensar a água'},
     {k:'p', t:'O modelo mais simples é um buraco fundo que, ao encher, é coberto com terra e substituído por outro. A evolução direta desse princípio é o **sanitário seco de duas câmaras**: enquanto uma câmara recebe uso e composta o material com o auxílio de terra ou cinza, a outra permanece fechada terminando sua compostagem — alternando-se entre as duas, nenhuma precisa ser esvaziada com dejeto fresco.'},
@@ -610,6 +704,7 @@ export const CHAPTERS = [
       '**Alternância programada** entre as duas câmaras — a que descansa é a que se transforma em adubo.',
     ]},
     {k:'p', t:'O ganho ambiental direto — já registrado no manual original e hoje reforçado por qualquer literatura de saneamento ecológico — é que o sanitário seco bem operado não contamina subsolo nem águas superficiais, porque não existe efluente líquido a infiltrar.'},
+    {k:'video', url:'https://www.youtube.com/embed/0qgvqwfbsKo', cap:'Vídeo — Sanitário compostável ou banheiro seco: como funciona e como construir, por Cursos Solos e Agroecologia.'},
 
     {k:'h2', t:'5.5 Biodigestores: transformando esterco e resto orgânico em biogás e adubo'},
     {k:'p', t:'Um biodigestor é, na definição mais direta possível, um depósito fechado onde esterco animal e lixo orgânico (sem plástico, metal ou vidro) se decompõem em ambiente sem oxigênio, produzindo dois resultados úteis ao mesmo tempo: **biogás** (majoritariamente metano, aproveitável para cozinhar) e **lodo digerido**, um fertilizante que pode ser usado puro ou diluído em água.'},
@@ -621,6 +716,7 @@ export const CHAPTERS = [
       'Ele exige manutenção regular — alimentar o depósito e retirar o lodo periodicamente — o que só compensa onde não há gás ou eletricidade disponíveis por outra via.',
       'Depende de volume mínimo de esterco animal — sem rebanho por perto, o sistema não produz gás suficiente para justificar a obra.',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/DmxZPjxLabw', cap:'Vídeo — Biodigestor caseiro de 200 litros: vídeo completo incluindo área de armazenamento e filtros, por Oficina de Quintal.'},
 
     {k:'h2', t:'5.6 Sistemas integrados: pensar água e esgoto como um conjunto só'},
     {k:'p', t:'Um recurso pouco conhecido fora do Brasil rural é o **"coban"** — um núcleo compacto que concentra banheiro, cozinha e área de serviço numa única parede estrutural em formato de "H", que sustenta a caixa d’água acima do forro e recebe todos os canos aparentes, facilitando qualquer conserto futuro. A água de chuva é recolhida numa cisterna, uma bomba a leva à caixa d’água ligada a um aquecedor solar, e da caixa a água desce para chuveiro, pia e tanque — que, filtrada, ainda alimenta biodigestor e horta antes de ir ao sumidouro.'},
@@ -631,9 +727,14 @@ export const CHAPTERS = [
     {k:'p', t:'Para **proteger uma nascente**, o procedimento recomendado remove o lodo até encontrar a camada impermeável, constrói uma caixa de alvenaria revestida sobre o olho d’água, cobre com uma tampa e desvia a água de chuva por um canal de drenagem — evitando que ela se misture à água limpa que aflora.'},
     {k:'p', t:'Para água captada diretamente de rio ou riacho, uma primeira purificação simples usa um barril ou caixa enterrado no leito, com um filtro de brita e areia (aproximadamente 1 parte de brita para 4 de areia) antes da água subir por uma bomba — reduzindo sedimento e alguma contaminação grosseira, sem substituir a desinfecção necessária antes do consumo humano.'},
     {k:'p', t:'Vale reforçar: essas soluções manuais resolvem captação e uma primeira filtragem física. Água destinada a beber e cozinhar continua exigindo desinfecção (fervura, cloração ou filtro certificado), independentemente da técnica de captação escolhida.'},
+    {k:'video', url:'https://www.youtube.com/embed/_uaPV7tCEaY', cap:'Vídeo — Como captar de forma simples e higiênica água de mina (nascente), por Técnicas Primitivas.'},
+    {k:'links', title:'Mais vídeos sobre bombas manuais e captação', items:[
+      {l:'Oficina Garagem — Bomba manual para poço (bomba rosário/bomba de soga), como fazer passo a passo', u:'https://www.youtube.com/watch?v=oJJud15LZhw'},
+    ]},
 
     {k:'h2', t:'5.8 Cisternas e coleta de água de chuva'},
     {k:'p', t:'A cisterna fecha o ciclo entre telhado e reserva: capta a água de chuva, guarda-a para os períodos secos e alimenta tanto a caixa d’água da casa quanto o biodigestor e a irrigação, quando o projeto os integra como no "coban" da Seção 5.6. No semiárido brasileiro, esse é o princípio por trás do **Programa Nacional de Saneamento Rural (PNSR)**, hoje sob responsabilidade do Ministério da Saúde por meio da Funasa, e do trabalho de captação social conduzido por organizações como a ASA Brasil — já referenciada no Repositório de Links deste manual.'},
+    {k:'video', url:'https://www.youtube.com/embed/0GNu2Rr0-dc', cap:'Vídeo — Curso de construção de cisterna de placas (P1MC), por estacaoapodi.'},
     {k:'quote', t:'No terreno em que você pretende construir (ou já construiu), qual das três frentes deste capítulo está mais frágil hoje — a distância até a fonte de água, o destino do efluente, ou a ausência de reserva para os meses secos?'},
 
     {k:'h2', t:'5.9 Juntando as peças: checklist de saneamento e água'},
@@ -715,6 +816,11 @@ export const CHAPTERS = [
     {k:'callout', title:'Produção puxada', text:'Cada recurso (tempo, material, mão de obra) entra no processo apenas quando a etapa anterior já validou que ele é necessário — especialmente valioso em bioconstrução, onde terra, bambu e madeira têm janelas de uso e cura que não perdoam acúmulo de estoque parado.'},
     {k:'p', t:'**Gestão visual** — manter cronograma, orçamento e decisões pendentes visíveis para toda a equipe reduz drasticamente reuniões e desencontros de informação.'},
     {k:'quote', t:'Pense num projeto que sofreu retrabalho caro. Em que ciclo micro faltou o passo de "checar" antes de avançar?'},
+    {k:'video', url:'https://www.youtube.com/embed/Rkxl-VqeqTw', cap:'Vídeo — Tiny Ecohouse, Combo Diversidade 2024: o ciclo de projeto aplicado, por Morada Viva (projetos do bioarquiteto Marcelo Bueno).'},
+    {k:'p', t:'Nota de transparência: **Marcelo Bueno** é bioarquiteto, referência em projetos de casas sustentáveis e sócio-fundador da Casa de Terra e da Morada Viva. Não encontramos um canal do YouTube publicado em seu próprio nome (o único canal com esse nome exato pertence a outra pessoa, sem relação com arquitetura); os vídeos acima e abaixo são publicados pela Morada Viva, empresa de projetos que ele assina, e mostram o ciclo de projeto desta seção aplicado na prática.'},
+    {k:'links', title:'Mais vídeos de projetos Morada Viva (Marcelo Bueno)', items:[
+      {l:'Morada Viva — Tiny house 15m² (projeto completo)', u:'https://www.youtube.com/watch?v=2vJPDyXwFcw'},
+    ]},
     {k:'h2', t:'6.2 Softwares livres e pagos, por categoria'},
     {k:'table', head:['Categoria','Livre','Pago'], rows:[
       ['Desenho e modelagem 2D/3D','LibreCAD, FreeCAD, Blender','AutoCAD, SketchUp Pro, Rhino'],
@@ -729,18 +835,22 @@ export const CHAPTERS = [
     {k:'h3', t:'Desenho e modelagem 2D/3D — dar forma à ideia antes de gastar um centavo'},
     {k:'p', t:'Antes de qualquer decisão técnica, todo projeto passa por um momento simples: alguém precisa desenhar a ideia para poder conversar sobre ela. É nessa etapa que um esboço de caderno vira uma planta que outra pessoa consegue entender, medir e opinar — e é também aqui que erros de proporção, de circulação ou de escala aparecem enquanto ainda custam apenas um clique de "desfazer", não uma parede já erguida.',},
     {k:'p', t:'Ferramentas livres como LibreCAD, FreeCAD e Blender fazem exatamente esse trabalho sem custo de licença, e hoje já entregam praticamente tudo que um estudo preliminar ou um anteprojeto de bioconstrução precisa — do desenho técnico 2D à modelagem tridimensional para visualizar o volume da casa antes de construir.'},
+    {k:'video', url:'https://www.youtube.com/embed/MqjVfoaUQzM', cap:'Vídeo — FreeCAD para iniciantes: tutorial completo para modelagem 3D, por FreeCAD dicas.'},
     {k:'h3', t:'BIM — quando o desenho carrega informação, não só forma'},
     {k:'p', t:'BIM significa, na prática, uma mudança de hábito: em vez de desenhar uma parede como um conjunto de linhas, você descreve o que aquela parede realmente é — de que material, com que espessura, apoiada sobre o quê. Esse dado extra é o que permite que o mesmo modelo sirva depois para simular o clima interno, calcular a quantidade de material e gerar o manual de manutenção da Seção 10, sem redigitar nada.'},
     {k:'p', t:'O Bonsai (antigo BlenderBIM) trouxe essa possibilidade para dentro do Blender, gratuitamente, e já é usado em projetos reais de bioconstrução no Brasil e no mundo — sem depender de uma licença paga de Revit ou ArchiCAD para começar.'},
+    {k:'video', url:'https://www.youtube.com/embed/tyYxw5m-ovs', cap:'Vídeo — Bonsai BIM no Blender em 20 minutos: instalação e tutorial rápido.'},
     {k:'h3', t:'Simulação bioclimática — testar o clima da casa antes dela existir'},
     {k:'p', t:'Esse grupo de ferramentas responde a uma pergunta concreta: essa casa, do jeito que está desenhada, vai ficar quente, fria ou agradável em cada mês do ano? Em vez de descobrir isso na prática, morando na casa pronta, é possível simular o comportamento térmico ainda no papel — e ajustar orientação, tamanho de abertura ou espessura de parede a tempo de custar zero.'},
     {k:'p', t:'O Climate Consultant, gratuito, é o ponto de entrada mais simples: ele lê o arquivo climático da sua cidade e já devolve a Carta de Givoni da Seção 1.2 pronta, com a estratégia passiva recomendada para cada época do ano.'},
+    {k:'video', url:'https://www.youtube.com/embed/GXtocYZnt64', cap:'Vídeo — Dados climáticos no Climate Consultant, por Brendon Levitt.'},
     {k:'h3', t:'Cálculo estrutural — a conferência que nenhuma intuição substitui'},
     {k:'p', t:'Já vimos, na Seção 4.6, por que todo projeto estrutural merece esse tipo de conferência formal, mesmo em bioconstrução. Essas ferramentas existem para transformar a intuição de que "essa viga parece robusta o suficiente" numa verificação numérica de verdade, com margem de segurança explícita.'},
     {k:'p', t:'O workbench FEM do FreeCAD já entrega uma primeira análise de elementos finitos gratuitamente — suficiente para um primeiro estudo antes de levar o projeto a um profissional habilitado para a assinatura técnica final.'},
     {k:'h3', t:'Geoprocessamento e análise territorial (SIG) — entender o terreno em mapa, não só a olho nu'},
     {k:'p', t:'Boa parte das decisões deste manual — clima, drenagem, bioma, distância de infraestrutura, risco de alagamento — só ficam realmente claras quando você as vê sobrepostas num mapa, e não apenas listadas num checklist. É exatamente essa a função de um SIG (Sistema de Informação Geográfica, ou GIS em inglês): ele permite cruzar camadas de informação georreferenciada — curvas de nível, hidrografia, uso do solo, zoneamento municipal — sobre a imagem real do seu terreno, e é uma ferramenta valiosa já na Etapa 1 do ciclo do projeto (diagnóstico e levantamento).'},
     {k:'p', t:'O ArcGIS é a referência comercial mais conhecida da área, mas o QGIS — gratuito, de código aberto e mantido pela comunidade internacional OSGeo — já cobre praticamente todas as mesmas funções, com documentação em português e uma comunidade brasileira ativa. Quem aprende geoprocessamento pelo QGIS aprende a lógica do SIG como um todo; migrar depois para o ArcGIS, se um empregador ou parceiro exigir, vira uma questão de se acostumar com outros nomes de menu, não de aprender algo novo.'},
+    {k:'video', url:'https://www.youtube.com/embed/gNOMmdSc9A8', cap:'Vídeo — Curso gratuito de QGIS para iniciantes: introdução, por Descomplica QGIS.'},
     {k:'links', title:'Cursos gratuitos e em português de SIG (QGIS e ArcGIS)', items:[
       {l:'Base dos Dados — Curso completo e gratuito de QGIS (6 aulas práticas, do zero à análise espacial)', u:'https://basedosdados.org/blog/curso-qgis'},
       {l:'Portal IDEA — Curso introdutório gratuito de QGIS (material em PDF, no seu ritmo)', u:'https://portalidea.com.br/curso-gratuito-basico-de-qgis'},
@@ -846,11 +956,11 @@ export const CHAPTERS = [
     {k:'links', title:'Para você aprofundar em desenho técnico', items:[
       {l:'ABNT — consulta e aquisição das normas de desenho técnico (6492, 16752, 8196, 10067, 10126, 16861, 12298)', u:'https://www.abnt.org.br/'},
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/c54X-1NdjYE', cap:'Vídeo — Curso gratuito de Leitura e Interpretação de Projetos, aula 1: considerações iniciais (Mauricio Camargo).'},
+    {k:'video', url:'https://www.youtube.com/embed/7s8KmDOCFe4', cap:'Vídeo — Curso de Desenho Arquitetônico, primeira aula da série (Markoni Heringer).'},
     {k:'links', title:'Vídeos e cursos gratuitos de desenho técnico e arquitetônico', items:[
       {l:'Playlist — Desenho Técnico completo: instrumentos, perspectiva isométrica, projeção ortográfica', u:'https://www.youtube.com/playlist?list=PLtb8YzVQOV8MF2lIqOorBpShZzo7um7KW'},
       {l:'Curso gratuito de desenho técnico (playlist completa)', u:'https://www.youtube.com/playlist?list=PLXqWj8C4VgUi-3eQpMNV0ucjCWyMyvXM5'},
-      {l:'Curso gratuito de Leitura e Interpretação de Projetos (com download da planta usada nas aulas)', u:'https://www.youtube.com/watch?v=c54X-1NdjYE'},
-      {l:'Curso de Desenho Arquitetônico — primeira aula da série', u:'https://www.youtube.com/watch?v=7s8KmDOCFe4'},
     ]},
     {k:'links', title:'Templates e materiais visuais para baixar', items:[
       {l:'CADblocos — modelos de pranchas padrão ABNT (A0 a A4) prontos para usar', u:'https://www.cadblocos.arq.br/pt-br/blocos/bloco-detalhes/5102/diversos/'},
@@ -887,10 +997,12 @@ export const CHAPTERS = [
       'Posicione-as como marcos que não podem ser comprimidos, organizando o resto do trabalho ao redor delas.',
       'Construa a curva S com esses tempos já embutidos.',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/LmWDV4o9Akc', cap:'Vídeo — Como fazer cronograma físico x financeiro, por Conaplo.'},
     {k:'h2', t:'7.2 Orçamento: do sintético ao analítico'},
     {k:'p', t:'Um orçamento **sintético** estima por grandes blocos (fundação, estrutura, vedação, cobertura, acabamento). Um orçamento **analítico** detalha cada composição de custo unitário — insumos, mão de obra, equipamento por unidade de serviço.'},
     {k:'callout', title:'Curva ABC de insumos', text:'Liste os itens em ordem decrescente de custo: uma fração pequena (faixa "A", cerca de 20% dos itens) responde por 70% a 80% do custo total. Concentre o controle de custo e a negociação exatamente nessa faixa.'},
     {k:'p', t:'Muitas composições para técnicas naturais ainda não têm item pronto no SINAPI — vale montar a composição por conta própria: quantidade de insumo por m²/m³, produtividade real da equipe e custo da mão de obra especializada.'},
+    {k:'video', url:'https://www.youtube.com/embed/OlxdxbOWrG8', cap:'Vídeo — Como fazer curva ABC no orçamento de obras, por Wellington Amaral.'},
     {k:'h2', t:'7.3 Gestão de equipe: da escassez à mão de obra especializada ao mutirão'},
     {k:'list', items:[
       '**Contratar um mestre de obra** com experiência real na técnica, mesmo trazido de outra região, capacitando a equipe local no processo.',
@@ -899,6 +1011,7 @@ export const CHAPTERS = [
       '**Documentar decisões e ajustes** — um caderno de obra ou registro fotográfico datado protege o conhecimento adquirido.',
     ]},
     {k:'p', t:'O conhecimento tradicional de um mestre de obra e o cálculo estrutural de um profissional habilitado não competem entre si — se complementam.'},
+    {k:'video', url:'https://www.youtube.com/embed/jAgZ-XGbrz4', cap:'Vídeo — Pau-a-pique: mutirão de bioconstrução, na Chapada dos Veadeiros, por Coragem na Bagagem.'},
     {k:'h2', t:'7.4 Segurança do trabalho: os riscos específicos da bioconstrução'},
     {k:'list', items:[
       '**Peso da terra úmida** — um saco de terra molhada pesa consideravelmente mais que seca; fácil subestimar o esforço físico em taipa de pilão e hiperadobe.',
@@ -906,11 +1019,16 @@ export const CHAPTERS = [
       '**Condições gerais do canteiro** — a NR-18 regulamenta escavações, andaimes, área de vivência e sinalização.',
       '**Exposição prolongada ao sol** na produção de tijolos de adobe e superadobe — hidratação e pausas programadas não são opcionais.',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/FS6HV4GRL4A', cap:'Vídeo — NR-18: segurança e saúde no trabalho na indústria da construção, por Telemedicina Morsch.'},
+    {k:'links', title:'Mais vídeos sobre segurança do trabalho (NR-18 e NR-35)', items:[
+      {l:'Kultivi — NR-35: trabalho em altura, curso rápido (aula 5)', u:'https://www.youtube.com/watch?v=jPQy_-fD1Do'},
+    ]},
     {k:'h2', t:'7.5 Logística de materiais naturais: cada material com seu tempo'},
     {k:'h3', t:'Terra'},
     {k:'p', t:'Armazene coberta e protegida de chuva. Em regiões de estação chuvosa definida, planeje as etapas de terra crua para a estação seca.'},
     {k:'h3', t:'Bambu'},
     {k:'p', t:'A colheita tradicional acontece nos "meses sem r" (maio a agosto), quando o colmo tem menor teor de amido e água, na fase de lua minguante. Depois de cortado, fica em pé no local por 2 a 3 semanas. Tratamento com ácido bórico e bórax (1 kg de cada para 100 litros de água), imersão de 8 a 10 dias — sem tratamento, durabilidade abaixo de 2 anos; tratado, de 4 a 7 anos ou mais.'},
+    {k:'video', url:'https://www.youtube.com/embed/D8xrY1N7OyA', cap:'Vídeo — Como tratar bambu, por Instituto Pindorama.'},
     {k:'h3', t:'Madeira e Cal'},
     {k:'p', t:'Madeira certificada, armazenada afastada do solo e protegida de chuva. Cal armazenada em ambiente seco e bem vedado — mal armazenada, perde reatividade antes mesmo de chegar à parede.'},
     {k:'h2', t:'7.6 Juntando as peças: um checklist de gestão'},
@@ -967,9 +1085,9 @@ export const CHAPTERS = [
       {l:'NBR 15575 — Desempenho de edificações habitacionais (ficha oficial no catálogo ABNT)', u:'https://www.abntcatalogo.com.br/'},
       {l:'NBR 9050 — Acessibilidade (ficha oficial no catálogo ABNT)', u:'https://www.abntcatalogo.com.br/'},
     ]},
-    {k:'links', title:'Vídeos esclarecedores no YouTube sobre essas normas', items:[
-      {l:'Norma de Desempenho ABNT NBR 15575 — Parte 1: como surgiu, por que importa, quais sistemas contempla', u:'https://www.youtube.com/watch?v=6giOoFLdIyo'},
-      {l:'NBR 9050: guia completo de acessibilidade — o que você precisa saber', u:'https://www.youtube.com/watch?v=i_uApyBVTZo'},
+    {k:'video', url:'https://www.youtube.com/embed/6giOoFLdIyo', cap:'Vídeo — Norma de Desempenho ABNT NBR 15575, Parte 1: como surgiu, por que importa, quais sistemas contempla (Projelet).'},
+    {k:'video', url:'https://www.youtube.com/embed/i_uApyBVTZo', cap:'Vídeo — NBR 9050: guia completo de acessibilidade, o que você precisa saber (Manual da Engenharia).'},
+    {k:'links', title:'Mais vídeos esclarecedores no YouTube sobre essas normas', items:[
       {l:'Rampa acessível conforme a NBR 9050 atualizada — todos os itens necessários', u:'https://www.youtube.com/watch?v=vMOqfzBSnRA'},
       {l:'Playlist — NBR 7190: Projeto de Estruturas de Madeira', u:'https://www.youtube.com/playlist?list=PLe3KcEdU5382s2fg6cfIc9sgqB9UpwRG_'},
     ]},
@@ -981,9 +1099,15 @@ export const CHAPTERS = [
       '**RRT (Registro de Responsabilidade Técnica)** — para arquitetos e urbanistas, registrado no CAU.',
     ]},
     {k:'p', t:'O documento vincula formalmente um profissional habilitado ao projeto, acompanhado de um memorial descritivo que referencia as normas aplicáveis — frequentemente o elemento que destrava a aprovação municipal de um projeto em terra crua ou bambu.'},
+    {k:'callout', title:'Aviso importante', text:'Este manual é um recurso educacional. Nenhuma técnica, cálculo ou norma citada aqui substitui projeto, execução e aprovação assinados por um profissional habilitado com ART ou RRT. Solo, clima, legislação municipal e disponibilidade de material variam de terreno para terreno — antes de construir, valide o projeto com um engenheiro ou arquiteto e junto à prefeitura da sua região.'},
+    {k:'video', url:'https://www.youtube.com/embed/Gv0Bw9u4XzE', cap:'Vídeo — Como emitir ART? Tutorial passo a passo, por TVCreaSP.'},
     {k:'h2', t:'8.3 Aprovação municipal: um desafio real, com caminhos já testados'},
     {k:'p', t:'Nem todo código de obras municipal já prevê explicitamente taipa de pilão, adobe ou hiperadobe. A saída costuma ser um **laudo técnico de solução alternativa** — assinado pelo profissional responsável, demonstrando que a solução atende aos mesmos requisitos que o código exige de forma genérica.'},
     {k:'p', t:'Municípios com experiência acumulada em aprovar terra crua e bambu: Ubatuba, Paraty, Bonito e São Luiz do Paraitinga. Manaus, desde 2022, integra um programa de fortalecimento de construções sustentáveis, com tramitação prioritária e habite-se condicionado à certificação correspondente.'},
+    {k:'video', url:'https://www.youtube.com/embed/BZJPfgB92RE', cap:'Vídeo — Elaboração de projetos de prefeitura: desvendando segredos, por Roberta Vendramini (Cursos Construir).'},
+    {k:'links', title:'Mais vídeos sobre aprovação de projetos e alvará', items:[
+      {l:'Eng. Alex Wetler — Como dar entrada dos projetos na prefeitura para liberação do alvará', u:'https://www.youtube.com/watch?v=ILoEf97xV3s'},
+    ]},
     {k:'h2', t:'8.4 Licenciamento ambiental: quando ele entra em cena'},
     {k:'list', items:[
       'Extração de terra em volume relevante do próprio terreno pode exigir licença de movimentação de terra.',
@@ -995,7 +1119,7 @@ export const CHAPTERS = [
     {k:'p', t:'O habite-se depende da aprovação do projeto e da conformidade da obra executada. Para financiamento, os bancos exigem os mesmos três pilares: ART/RRT, memorial descritivo referenciando as normas, e comprovação de desempenho conforme a NBR 15575.'},
     {k:'h2', t:'8.6 Segurança contra incêndio'},
     {k:'p', t:'Todo projeto passa pela análise do Corpo de Bombeiros do estado, com instrução técnica própria — rotas de fuga, distância de saída, requisitos conforme material da vedação e cobertura.'},
-    {k:'img', alt:'wetland', cap:'Esquema: tratamento biológico (wetlands)'},
+    {k:'p', t:'Nota de transparência: cada estado tem seu próprio Corpo de Bombeiros e sua própria instrução técnica — não localizamos um vídeo único que representasse esse processo de forma genérica e ao mesmo tempo precisa o bastante para todo o Brasil. Vale consultar diretamente o Corpo de Bombeiros do seu estado (vários já publicam tutoriais em vídeo dos próprios sistemas de protocolo, como o Paraná).'},
     {k:'h2', t:'8.7 Checklist regulatório'},
     {k:'check', items:[
       'O profissional responsável já emitiu a ART ou o RRT do projeto?',
@@ -1031,10 +1155,14 @@ export const CHAPTERS = [
     ]},
     {k:'p', t:'Esterco de gado curtido é historicamente chamado de "cimento natural" — aumenta a resistência do reboco depois de seco. Para rebocos externos, uma colher de óleo de linhaça por balde de 10 litros aumenta a impermeabilidade.'},
     {k:'callout', title:'A técnica da esponja para acabamento liso', text:'Depois que o reboco começa a secar, passe uma esponja levemente umedecida para remover partículas maiores e alisar. Se o barro deforma ou enruga, ainda está cedo demais. No ponto certo, a esponja desliza e deixa a parede lisa.'},
-    {k:'img', alt:'técnica da esponja', cap:'Técnica da esponja no reboco de terra'},
+    {k:'video', url:'https://www.youtube.com/embed/EXqabdVYscQ', cap:'Vídeo — Como fazer reboco da forma correta, por Papo de Obra.'},
     {k:'h2', t:'9.2 Reboco e pintura de cal: respirabilidade com tradição'},
     {k:'p', t:'A cal compartilha a permeabilidade ao vapor vista na Seção 1.1. A **baba de cactos** — palma (Opuntia) picada e deixada de molho por 3 dias — solta um líquido usado para diluir a cal, melhorando aderência e impermeabilidade (não deve ser combinada com outros aditivos ao mesmo tempo).'},
     {k:'p', t:'Pigmentos naturais — óxidos metálicos, terras coloridas, carvão, cinzas — podem ser adicionados à cal já preparada. Vale testar a cor numa pequena área antes, já que muda entre úmido e seco.'},
+    {k:'video', url:'https://www.youtube.com/embed/lbePETu0YTw', cap:'Vídeo — Como fazer reboco de cal na bioconstrução, por Bioconstrução ArteNativamente.'},
+    {k:'links', title:'Mais vídeos sobre caiação e pintura de cal', items:[
+      {l:'Lidia Hanel — Pintura caiada: pintura com cal (caiação)', u:'https://www.youtube.com/watch?v=BO_AWzdK5zs'},
+    ]},
     {k:'h2', t:'9.3 Tadelakt: o acabamento impermeável de cal'},
     {k:'p', t:'Você já viu o passo a passo completo na Seção 3.6 — é o único acabamento de cal pensado especificamente para contato direto e constante com água.'},
     {k:'h2', t:'9.4 Pinturas naturais: tinta de terra e outras receitas'},
@@ -1046,6 +1174,7 @@ export const CHAPTERS = [
       'Para variar a cor, incorpore carvão, cinzas ou óxidos metálicos.',
       'Para superfícies expostas à umidade, finalize com cera de abelha ou óleo de linhaça.',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/yws8yu4022M', cap:'Vídeo — Tutorial de tinta de terra passo a passo, por Bioconstrução ArteNativamente.'},
     {k:'h2', t:'9.5 Piso de terra batida (terra compactada)'},
     {k:'list', ordered:true, items:[
       'Aplique ~10 cm de cascalho como base de drenagem (ou pedra-pome/perlita em climas frios).',
@@ -1056,6 +1185,7 @@ export const CHAPTERS = [
       'Aguarde mais dois ou três dias e finalize com cera de proteção.',
     ]},
     {k:'p', t:'Em região com histórico de radônio (Seção 1.5), instale uma barreira de plástico espesso sob o piso.'},
+    {k:'video', url:'https://www.youtube.com/embed/GIYkRJGHFPg', cap:'Vídeo — Piso de terra na bioconstrução: uma alternativa natural, como fazer (parte 1), por Igor Parsekian.'},
     {k:'h2', t:'9.6 Juntando as peças: qual acabamento para qual situação'},
     {k:'table', head:['Situação','Acabamento que costuma se destacar'], rows:[
       ['Parede interna, ambiente seco','Reboco de terra fino, acabamento de esponja'],
@@ -1065,11 +1195,8 @@ export const CHAPTERS = [
       ['Piso interno de terra','Piso de terra batida, selado com óleo de linhaça e cera'],
       ['Madeira exposta','Óleo de linhaça (interno) — óleos resistentes a UV (externo)'],
     ]},
-    {k:'links', title:'Vídeos gratuitos passo a passo de acabamentos naturais', items:[
-      {l:'Tutorial completo de Tadelakt — passo a passo em vídeo', u:'https://www.youtube.com/watch?v=2NlTaqMtjcs'},
+    {k:'links', title:'Mais material gratuito sobre acabamentos naturais', items:[
       {l:'Guia ilustrado de Tadelakt passo a passo (PDF, projeto Erasmus+)', u:'http://media.voog.com/0000/0037/2776/files/tadelakt_portuguese_printable.pdf'},
-      {l:'Tutorial de tinta de terra passo a passo', u:'https://www.youtube.com/watch?v=yws8yu4022M'},
-      {l:'Como fazer reboco corretamente — guia completo em vídeo', u:'https://www.youtube.com/watch?v=EXqabdVYscQ'},
     ]},
     {k:'h2', t:'9.7 Fontes e para você aprofundar'},
     {k:'links', items:[
@@ -1093,12 +1220,6 @@ export const CHAPTERS = [
       '**Documentação regulatória** — ART/RRT, habite-se e demais aprovações emitidos?',
       '**Segurança** — pendências de NR-18 e NR-35 resolvidas?',
     ]},
-    {k:'img', alt:'estrutura', cap:'Estrutura'},
-    {k:'img', alt:'envoltória', cap:'Envoltória'},
-    {k:'img', alt:'água', cap:'Água'},
-    {k:'img', alt:'instalações', cap:'Instalações'},
-    {k:'img', alt:'documentação', cap:'Documentação'},
-    {k:'img', alt:'segurança', cap:'Segurança'},
     {k:'h2', t:'10.2 O Manual de Uso, Operação e Manutenção'},
     {k:'p', t:'A NBR 15575 já prevê esse manual para qualquer edificação habitacional — numa bioconstrução ele carrega informações que um manual convencional não tem.'},
     {k:'list', items:[
@@ -1117,10 +1238,12 @@ export const CHAPTERS = [
       ['Conforme o desgaste','Reaplicar óleo de linhaça em pisos e madeira exposta'],
       ['Sempre que notar','Selar fissuras que atravessam a parede; consultar o responsável técnico'],
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/ZtwsjMaGGSo', cap:'Vídeo — Veja como se faz o reboco de manutenção de uma casa de taipa, por Sítio da Vovó Lúcia.'},
     {k:'h2', t:'10.4 Avaliação Pós-Ocupação: fechando o ciclo fractal'},
     {k:'p', t:'A APO mede o desempenho real da edificação depois que as pessoas já vivem nela, cruzando percepção de quem mora com análise técnica de desempenho. Uma APO um ano depois da entrega — após um ciclo completo de estações — revela informações que nenhuma simulação antecipa por completo.'},
     {k:'p', t:'Essas descobertas retroalimentam o próximo ciclo, seja um novo projeto seu, seja o conhecimento compartilhado com a comunidade de bioconstrutores (Seção 3.8).'},
     {k:'quote', t:'Se você já morou ou visitou uma bioconstrução por tempo suficiente para passar por mais de uma estação, o que você notou que nenhum projeto no papel teria antecipado?'},
+    {k:'video', url:'https://www.youtube.com/embed/esWU0oy5mjY', cap:'Vídeo — Avaliação Pós-Ocupação: decifrando os segredos do sucesso na arquitetura através da experiência real, por Izabele Colusso.'},
     {k:'h2', t:'10.5 Checklist de entrega e pós-obra'},
     {k:'check', items:[
       'Comissionamento completo, incluindo teste de água e conexões estruturais críticas',
@@ -1149,20 +1272,21 @@ export const CHAPTERS = [
       '**Gestão de ruído e poeira** — compactação de taipa de pilão gera ruído prolongado; planeje horários e comunique vizinhos.',
       '**Mutirão em escala menor** — espaço reduzido limita quantas pessoas trabalham ao mesmo tempo.',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/QlavJzY81Ko', cap:'Vídeo — Como construir uma casa barata: dicas de bioconstrução, por Ser Cósmico.'},
     {k:'h2', t:'11.2 Contexto periurbano: a zona de transição com mais liberdade'},
     {k:'list', items:[
       '**Sistemas híbridos inspirados em earthships** — captação de água e produção de alimento, com conexão à rede pública quando conveniente.',
       '**Mutirão em escala plena** — mais espaço para reunir um grupo maior.',
       '**Atenção redobrada ao zoneamento** — confirme se a zona é urbana, de expansão urbana ou rural, pois isso muda o caminho de aprovação (Seção 8.3).',
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/QHVGtRAmKSU', cap:'Vídeo — Bioconstrução: uma casa sustentável em Guaraciaba (SC), por Pernas pelo Mundo.'},
     {k:'h2', t:'11.3 Contexto rural: a maior liberdade, com suas próprias exigências'},
     {k:'list', items:[
-      '**Captação e armazenamento de água como prioridade** — a cisterna de placas do P1MC armazena ~16 mil litros, suficiente para uma família por boa parte do ano.',
+      '**Captação e armazenamento de água como prioridade** — a cisterna de placas do P1MC armazena ~16 mil litros, suficiente para uma família por boa parte do ano (vídeo completo do passo a passo na Seção 5.8).',
       '**Tratamento de esgoto no próprio lote** (wetlands construídas) — a rede coletora costuma estar distante.',
       '**Logística de material e mão de obra** exige planejamento mais cuidadoso (Seção 7.5).',
       '**Averbação da construção** segue um caminho diferente do habite-se urbano — consulte cartório e prefeitura.',
     ]},
-    {k:'img', alt:'diagrama territorial', cap:'Fig 10.1 — Diagrama de fluxos territoriais e adaptação bioclimática'},
     {k:'h2', t:'11.4 Adaptando as técnicas aos biomas brasileiros'},
     {k:'table', head:['Bioma','Características que mais pesam','Técnicas que tendem a se destacar'], rows:[
       ['Amazônia','Calor e umidade constantes, chuva abundante, alagamento sazonal','Palafitas, madeira local, ventilação cruzada, beirais muito largos'],
@@ -1172,6 +1296,7 @@ export const CHAPTERS = [
       ['Pampa','Clima frio, ventos fortes e constantes','Alvenaria de pedra, quebra-ventos, massa térmica'],
       ['Pantanal','Ciclo sazonal de cheia e seca marcado','Palafitas quase como regra'],
     ]},
+    {k:'video', url:'https://www.youtube.com/embed/1qvSa5pTLT8', cap:'Vídeo — Biomas Brasileiros: características gerais de cada um, por Eu Adoro Ciência!'},
     {k:'quote', t:'Cruzando o bioma do seu terreno com a zona bioclimática da Seção 1.2, existe alguma técnica desta tabela que você ainda não tinha considerado?'},
     {k:'h2', t:'11.5 Fontes e para você aprofundar'},
     {k:'links', items:[
@@ -1215,6 +1340,7 @@ export const CHAPTERS = [
       {l:'IUCN Global Standard for Nature-based Solutions', u:'https://www.iucn.org/our-work/topic/nature-based-solutions'},
       {l:'MMA — Cidades Verdes e Resilientes', u:'https://www.gov.br/mma/pt-br/assuntos/meio-ambiente-urbano-recursos-hidricos-qualidade-ambiental/cidades-verdes-resilientes/SBN'},
       {l:'Living Building Challenge', u:'https://living-future.org/lbc/'},
+      {l:'Dias, F.P.; Kós, J.R.P. — Diretrizes de Projeto Regenerativo: uma revisão nos limites do campus universitário (Arquitetura Revista, UNISINOS, 2021)', u:'https://www.redalyc.org/journal/1936/193666072009/html/'},
     ]},
     {k:'links', title:'Saúde da edificação', items:[
       {l:'GBC Brasil — Síndrome do Edifício Doente', u:'https://www.gbcbrasil.org.br/sindrome-do-edificio-doente-o-que-e-causas-e-como-prevenir/'},

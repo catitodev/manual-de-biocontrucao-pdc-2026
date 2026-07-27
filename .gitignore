@@ -22,6 +22,9 @@
 /debug/
 .thumbnail
 
+# --- Cópia órfã de upload (arquivo já vive em assets/estruturas/) ---
+/assets/principo_dupla_casca.jpeg
+
 # --- Resíduos de configuração do repositório (podem ser apagados manualmente) ---
 .git-broken-tmp/
 .testhidden
@@ -34,6 +37,7 @@ desktop.ini
 # --- Editores e IDEs ---
 .vscode/
 .idea/
+.kiro/
 *.swp
 *.swo
 

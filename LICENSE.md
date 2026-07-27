@@ -32,6 +32,24 @@ direitos autorais de seus respectivos titulares** e não são relicenciados por
 este projeto. Onde uma ilustração de terceiro é reproduzida, a legenda no
 próprio capítulo identifica a fonte e a edição.
 
+## Isenção de responsabilidade
+
+Este manual tem finalidade **educacional e informativa**. As técnicas, normas,
+cálculos e recomendações reunidos aqui **não substituem projeto, execução e
+aprovação por profissional habilitado** (engenheiro civil ou arquiteto,
+devidamente registrado com ART/RRT — ver Capítulo 8, Seção 8.2). Condições de
+solo, clima, legislação municipal e disponibilidade de material variam por
+local e não podem ser plenamente antecipadas por um recurso genérico como
+este.
+
+Ao usar qualquer informação deste manual para planejar ou executar uma
+construção, é responsabilidade de quem constrói buscar acompanhamento técnico
+adequado e validar o projeto junto aos órgãos competentes. O autor e os
+colaboradores deste repositório distribuem este conteúdo "como está" (as is),
+sem garantias de qualquer tipo, e não se responsabilizam por danos, prejuízos,
+falhas estruturais ou problemas legais decorrentes do uso das informações
+aqui reunidas sem esse acompanhamento.
+
 ## Código de execução (runtime)
 
 Os arquivos `support.js` e `image-slot.js` são scaffolding gerado
