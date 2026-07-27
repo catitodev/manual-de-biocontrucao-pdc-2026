@@ -1,0 +1,48 @@
+# === Manual de Bioconstrução — .gitignore ===
+# Protege material de terceiros (PDFs sob direitos autorais) de nunca serem
+# versionados ou enviados a um remoto, mesmo que a visibilidade do
+# repositório mude no futuro. Os arquivos continuam existindo normalmente
+# no disco local — isso só afeta o que o git rastreia.
+
+# --- Documentos-fonte de terceiros (nunca versionar) ---
+# Cobre, entre outros: MANUAL_DO_ARQUITETO_DESCALCO_COMPLETO.pdf,
+# assets/arquiteto-descalco.pdf, assets/caderno-de-geobiologia.pdf,
+# assets/caderno-de-radiestesia.pdf, assets/sindrome-do-edificio-doente-tese.pdf,
+# assets/Engineering_Interpretation_of_the_Traditional_Kyrg.pdf e qualquer
+# PDF equivalente dentro de uploads/.
+*.pdf
+
+# --- Pasta de uploads originais (rascunhos, fontes brutas, mockups) ---
+# Mantém-se fora do controle de versão por conter, junto de conteúdo próprio,
+# os PDFs de terceiros acima e arquivos de trabalho que não fazem parte do
+# site publicado.
+/uploads/
+
+# --- Artefatos de debug e thumbnails gerados automaticamente ---
+/debug/
+.thumbnail
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editores e IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Segredos e configuração local (caso venham a existir) ---
+.env
+.env.*
+!.env.example
+
+# --- Dependências (caso o projeto passe a usar build tooling) ---
+node_modules/
+dist/
+build/
+
+# --- Logs ---
+*.log
+npm-debug.log*
