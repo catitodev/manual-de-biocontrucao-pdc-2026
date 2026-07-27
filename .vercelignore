@@ -1,0 +1,7 @@
+.git
+.git-broken-tmp
+uploads
+debug
+.testhidden
+.thumbnail
+*.pdf
